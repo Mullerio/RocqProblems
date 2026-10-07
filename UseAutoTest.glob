@@ -1,0 +1,17 @@
+DIGEST 0801cb5d177edd92db9bb70c13c3cf9a
+FPLF.UseAutoTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:111 PLF.UseAuto <> <> lib
+ax 125:131 <> MISSING
+mod 148:152 <> Check
+R218:224 PLF.UseAutoTest <> MISSING defax
+R218:224 PLF.UseAutoTest <> MISSING defax
+R438:441 Corelib.Init.Datatypes <> Some constr
+R438:441 Corelib.Init.Datatypes <> Some constr
+R621:624 Corelib.Init.Datatypes <> None constr
+R621:624 Corelib.Init.Datatypes <> None constr
+R706:710 PLF.UseAutoTest Check <> mod
+R738:744 PLF.UseAuto <> <> lib
+R754:758 PLF.UseAutoTest Check <> mod
+def 762:770 <> Unnamed_thm
+R767:770 Corelib.Init.Logic <> True ind

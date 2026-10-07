@@ -1,0 +1,133 @@
+DIGEST b9123af5585f5104a2c5e6238551e97c
+FPLF.MapsTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:108 PLF.Maps <> <> lib
+ax 122:128 <> MISSING
+mod 145:149 <> Check
+R215:221 PLF.MapsTest <> MISSING defax
+R215:221 PLF.MapsTest <> MISSING defax
+R435:438 Corelib.Init.Datatypes <> Some constr
+R435:438 Corelib.Init.Datatypes <> Some constr
+R618:621 Corelib.Init.Datatypes <> None constr
+R618:621 Corelib.Init.Datatypes <> None constr
+R703:707 PLF.MapsTest Check <> mod
+R735:738 PLF.Maps <> <> lib
+R748:752 PLF.MapsTest Check <> mod
+def 756:764 <> Unnamed_thm
+R761:764 Corelib.Init.Logic <> True ind
+R912:924 PLF.Maps <> t_update_same prfax
+binder 937:937 <> A:3
+R952:960 PLF.Maps <> total_map def
+R962:962 PLF.MapsTest <> A:3 var
+binder 948:948 <> m:4
+R970:975 Stdlib.Strings.String <> string ind
+binder 966:966 <> x:5
+R981:982 Corelib.Init.Logic <> eq ind
+R996:1001 Stdlib.Strings.String <> string ind
+R1004:1004 PLF.MapsTest <> A:3 var
+R1009:1016 PLF.Maps <> t_update def
+R1018:1018 PLF.MapsTest <> A:3 var
+R1020:1020 PLF.MapsTest <> m:4 var
+R1022:1022 PLF.MapsTest <> x:5 var
+R1025:1025 PLF.MapsTest <> m:4 var
+R1027:1027 PLF.MapsTest <> x:5 var
+R1031:1031 PLF.MapsTest <> m:4 var
+R912:924 PLF.Maps <> t_update_same prfax
+binder 937:937 <> A:6
+R952:960 PLF.Maps <> total_map def
+R962:962 PLF.MapsTest <> A:6 var
+binder 948:948 <> m:7
+R970:975 Stdlib.Strings.String <> string ind
+binder 966:966 <> x:8
+R981:982 Corelib.Init.Logic <> eq ind
+R996:1001 Stdlib.Strings.String <> string ind
+R1004:1004 PLF.MapsTest <> A:6 var
+R1009:1016 PLF.Maps <> t_update def
+R1018:1018 PLF.MapsTest <> A:6 var
+R1020:1020 PLF.MapsTest <> m:7 var
+R1022:1022 PLF.MapsTest <> x:8 var
+R1025:1025 PLF.MapsTest <> m:7 var
+R1027:1027 PLF.MapsTest <> x:8 var
+R1031:1031 PLF.MapsTest <> m:7 var
+R1083:1095 PLF.Maps <> t_update_same prfax
+def 1098:1106 <> Unnamed_thm
+R1103:1106 Corelib.Init.Logic <> True ind
+R1271:1286 PLF.Maps <> t_update_permute prfax
+binder 1299:1299 <> A:9
+R1314:1322 PLF.Maps <> total_map def
+R1324:1324 PLF.MapsTest <> A:9 var
+binder 1310:1310 <> m:10
+R1336:1336 PLF.MapsTest <> A:9 var
+binder 1328:1329 <> v1:11
+binder 1331:1332 <> v2:12
+R1348:1353 Stdlib.Strings.String <> string ind
+binder 1340:1341 <> x1:13
+binder 1343:1344 <> x2:14
+R1364:1366 Corelib.Init.Logic <> not def
+R1370:1371 Corelib.Init.Logic <> eq ind
+R1373:1378 Stdlib.Strings.String <> string ind
+R1380:1381 PLF.MapsTest <> x2:14 var
+R1383:1384 PLF.MapsTest <> x1:13 var
+R1391:1392 Corelib.Init.Logic <> eq ind
+R1406:1411 Stdlib.Strings.String <> string ind
+R1414:1414 PLF.MapsTest <> A:9 var
+R1419:1426 PLF.Maps <> t_update def
+R1428:1428 PLF.MapsTest <> A:9 var
+R1432:1439 PLF.Maps <> t_update def
+R1441:1441 PLF.MapsTest <> A:9 var
+R1443:1443 PLF.MapsTest <> m:10 var
+R1445:1446 PLF.MapsTest <> x2:14 var
+R1448:1449 PLF.MapsTest <> v2:12 var
+R1452:1453 PLF.MapsTest <> x1:13 var
+R1455:1456 PLF.MapsTest <> v1:11 var
+R1464:1471 PLF.Maps <> t_update def
+R1473:1473 PLF.MapsTest <> A:9 var
+R1477:1484 PLF.Maps <> t_update def
+R1486:1486 PLF.MapsTest <> A:9 var
+R1488:1488 PLF.MapsTest <> m:10 var
+R1490:1491 PLF.MapsTest <> x1:13 var
+R1493:1494 PLF.MapsTest <> v1:11 var
+R1497:1498 PLF.MapsTest <> x2:14 var
+R1500:1501 PLF.MapsTest <> v2:12 var
+R1271:1286 PLF.Maps <> t_update_permute prfax
+binder 1299:1299 <> A:15
+R1314:1322 PLF.Maps <> total_map def
+R1324:1324 PLF.MapsTest <> A:15 var
+binder 1310:1310 <> m:16
+R1336:1336 PLF.MapsTest <> A:15 var
+binder 1328:1329 <> v1:17
+binder 1331:1332 <> v2:18
+R1348:1353 Stdlib.Strings.String <> string ind
+binder 1340:1341 <> x1:19
+binder 1343:1344 <> x2:20
+R1364:1366 Corelib.Init.Logic <> not def
+R1370:1371 Corelib.Init.Logic <> eq ind
+R1373:1378 Stdlib.Strings.String <> string ind
+R1380:1381 PLF.MapsTest <> x2:20 var
+R1383:1384 PLF.MapsTest <> x1:19 var
+R1391:1392 Corelib.Init.Logic <> eq ind
+R1406:1411 Stdlib.Strings.String <> string ind
+R1414:1414 PLF.MapsTest <> A:15 var
+R1419:1426 PLF.Maps <> t_update def
+R1428:1428 PLF.MapsTest <> A:15 var
+R1432:1439 PLF.Maps <> t_update def
+R1441:1441 PLF.MapsTest <> A:15 var
+R1443:1443 PLF.MapsTest <> m:16 var
+R1445:1446 PLF.MapsTest <> x2:20 var
+R1448:1449 PLF.MapsTest <> v2:18 var
+R1452:1453 PLF.MapsTest <> x1:19 var
+R1455:1456 PLF.MapsTest <> v1:17 var
+R1464:1471 PLF.Maps <> t_update def
+R1473:1473 PLF.MapsTest <> A:15 var
+R1477:1484 PLF.Maps <> t_update def
+R1486:1486 PLF.MapsTest <> A:15 var
+R1488:1488 PLF.MapsTest <> m:16 var
+R1490:1491 PLF.MapsTest <> x1:19 var
+R1493:1494 PLF.MapsTest <> v1:17 var
+R1497:1498 PLF.MapsTest <> x2:20 var
+R1500:1501 PLF.MapsTest <> v2:18 var
+R1554:1569 PLF.Maps <> t_update_permute prfax
+def 1572:1580 <> Unnamed_thm
+R1577:1580 Corelib.Init.Logic <> True ind
+R2533:2545 PLF.Maps <> t_update_same prfax
+R2613:2628 PLF.Maps <> t_update_permute prfax

@@ -1,0 +1,243 @@
+DIGEST 2a57687edd5a2f4f47b32445e6f14a47
+FPLF.TypesTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:109 PLF.Types <> <> lib
+ax 123:129 <> MISSING
+mod 146:150 <> Check
+R216:222 PLF.TypesTest <> MISSING defax
+R216:222 PLF.TypesTest <> MISSING defax
+R436:439 Corelib.Init.Datatypes <> Some constr
+R436:439 Corelib.Init.Datatypes <> Some constr
+R619:622 Corelib.Init.Datatypes <> None constr
+R619:622 Corelib.Init.Datatypes <> None constr
+R704:708 PLF.TypesTest Check <> mod
+R736:740 PLF.Types <> <> lib
+R750:754 PLF.TypesTest Check <> mod
+def 758:766 <> Unnamed_thm
+R763:766 Corelib.Init.Logic <> True ind
+R927:947 PLF.Types TM some_term_is_stuck prfax
+R952:953 Corelib.Init.Logic <> ex ind
+R955:959 PLF.Types TM tm ind
+R970:974 PLF.Types TM tm ind
+binder 966:966 <> t:3
+R979:986 PLF.Types TM stuck def
+R988:988 PLF.TypesTest <> t:3 var
+R927:947 PLF.Types TM some_term_is_stuck prfax
+R952:953 Corelib.Init.Logic <> ex ind
+R955:959 PLF.Types TM tm ind
+R970:974 PLF.Types TM tm ind
+binder 966:966 <> t:4
+R979:986 PLF.Types TM stuck def
+R988:988 PLF.TypesTest <> t:4 var
+R1041:1061 PLF.Types TM some_term_is_stuck prfax
+def 1064:1072 <> Unnamed_thm
+R1069:1072 Corelib.Init.Logic <> True ind
+R1230:1243 PLF.Types TM value_is_nf prfax
+R1260:1264 PLF.Types TM tm ind
+binder 1256:1256 <> t:5
+R1272:1279 PLF.Types TM value def
+R1281:1281 PLF.TypesTest <> t:5 var
+R1286:1306 PLF.Smallstep <> normal_form def
+R1308:1312 PLF.Types TM tm ind
+R1314:1320 PLF.Types TM step ind
+R1322:1322 PLF.TypesTest <> t:5 var
+R1230:1243 PLF.Types TM value_is_nf prfax
+R1260:1264 PLF.Types TM tm ind
+binder 1256:1256 <> t:6
+R1272:1279 PLF.Types TM value def
+R1281:1281 PLF.TypesTest <> t:6 var
+R1286:1306 PLF.Smallstep <> normal_form def
+R1308:1312 PLF.Types TM tm ind
+R1314:1320 PLF.Types TM step ind
+R1322:1322 PLF.TypesTest <> t:6 var
+R1374:1387 PLF.Types TM value_is_nf prfax
+def 1390:1398 <> Unnamed_thm
+R1395:1398 Corelib.Init.Logic <> True ind
+R1557:1567 PLF.Types TM progress prfax
+R1584:1588 PLF.Types TM tm ind
+binder 1580:1580 <> t:7
+R1596:1600 PLF.Types TM ty ind
+binder 1592:1592 <> T:8
+R1608:1618 PLF.Types TM has_type ind
+R1620:1620 PLF.TypesTest <> t:7 var
+R1622:1622 PLF.TypesTest <> T:8 var
+R1627:1628 Corelib.Init.Logic <> or ind
+R1645:1646 Corelib.Init.Logic <> ex ind
+R1648:1652 PLF.Types TM tm ind
+R1664:1668 PLF.Types TM tm ind
+binder 1659:1660 <> t':9
+R1673:1679 PLF.Types TM step ind
+R1681:1681 PLF.TypesTest <> t:7 var
+R1683:1684 PLF.TypesTest <> t':9 var
+R1631:1638 PLF.Types TM value def
+R1640:1640 PLF.TypesTest <> t:7 var
+R1557:1567 PLF.Types TM progress prfax
+R1584:1588 PLF.Types TM tm ind
+binder 1580:1580 <> t:10
+R1596:1600 PLF.Types TM ty ind
+binder 1592:1592 <> T:11
+R1608:1618 PLF.Types TM has_type ind
+R1620:1620 PLF.TypesTest <> t:10 var
+R1622:1622 PLF.TypesTest <> T:11 var
+R1627:1628 Corelib.Init.Logic <> or ind
+R1645:1646 Corelib.Init.Logic <> ex ind
+R1648:1652 PLF.Types TM tm ind
+R1664:1668 PLF.Types TM tm ind
+binder 1659:1660 <> t':12
+R1673:1679 PLF.Types TM step ind
+R1681:1681 PLF.TypesTest <> t:10 var
+R1683:1684 PLF.TypesTest <> t':12 var
+R1631:1638 PLF.Types TM value def
+R1640:1640 PLF.TypesTest <> t:10 var
+R1738:1748 PLF.Types TM progress prfax
+def 1751:1759 <> Unnamed_thm
+R1756:1759 Corelib.Init.Logic <> True ind
+R1926:1940 PLF.Types TM preservation prfax
+R1960:1964 PLF.Types TM tm ind
+binder 1953:1953 <> t:13
+binder 1955:1956 <> t':14
+R1972:1976 PLF.Types TM ty ind
+binder 1968:1968 <> T:15
+R1984:1994 PLF.Types TM has_type ind
+R1996:1996 PLF.TypesTest <> t:13 var
+R1998:1998 PLF.TypesTest <> T:15 var
+R2006:2012 PLF.Types TM step ind
+R2014:2014 PLF.TypesTest <> t:13 var
+R2016:2017 PLF.TypesTest <> t':14 var
+R2022:2032 PLF.Types TM has_type ind
+R2034:2035 PLF.TypesTest <> t':14 var
+R2037:2037 PLF.TypesTest <> T:15 var
+R1926:1940 PLF.Types TM preservation prfax
+R1960:1964 PLF.Types TM tm ind
+binder 1953:1953 <> t:16
+binder 1955:1956 <> t':17
+R1972:1976 PLF.Types TM ty ind
+binder 1968:1968 <> T:18
+R1984:1994 PLF.Types TM has_type ind
+R1996:1996 PLF.TypesTest <> t:16 var
+R1998:1998 PLF.TypesTest <> T:18 var
+R2006:2012 PLF.Types TM step ind
+R2014:2014 PLF.TypesTest <> t:16 var
+R2016:2017 PLF.TypesTest <> t':17 var
+R2022:2032 PLF.Types TM has_type ind
+R2034:2035 PLF.TypesTest <> t':17 var
+R2037:2037 PLF.TypesTest <> T:18 var
+R2089:2103 PLF.Types TM preservation prfax
+def 2106:2114 <> Unnamed_thm
+R2111:2114 Corelib.Init.Logic <> True ind
+R2291:2306 PLF.Types TM preservation' prfax
+R2326:2330 PLF.Types TM tm ind
+binder 2319:2319 <> t:19
+binder 2321:2322 <> t':20
+R2338:2342 PLF.Types TM ty ind
+binder 2334:2334 <> T:21
+R2350:2360 PLF.Types TM has_type ind
+R2362:2362 PLF.TypesTest <> t:19 var
+R2364:2364 PLF.TypesTest <> T:21 var
+R2372:2378 PLF.Types TM step ind
+R2380:2380 PLF.TypesTest <> t:19 var
+R2382:2383 PLF.TypesTest <> t':20 var
+R2388:2398 PLF.Types TM has_type ind
+R2400:2401 PLF.TypesTest <> t':20 var
+R2403:2403 PLF.TypesTest <> T:21 var
+R2291:2306 PLF.Types TM preservation' prfax
+R2326:2330 PLF.Types TM tm ind
+binder 2319:2319 <> t:22
+binder 2321:2322 <> t':23
+R2338:2342 PLF.Types TM ty ind
+binder 2334:2334 <> T:24
+R2350:2360 PLF.Types TM has_type ind
+R2362:2362 PLF.TypesTest <> t:22 var
+R2364:2364 PLF.TypesTest <> T:24 var
+R2372:2378 PLF.Types TM step ind
+R2380:2380 PLF.TypesTest <> t:22 var
+R2382:2383 PLF.TypesTest <> t':23 var
+R2388:2398 PLF.Types TM has_type ind
+R2400:2401 PLF.TypesTest <> t':23 var
+R2403:2403 PLF.TypesTest <> T:24 var
+R2455:2470 PLF.Types TM preservation' prfax
+def 2473:2481 <> Unnamed_thm
+R2478:2481 Corelib.Init.Logic <> True ind
+R2651:2670 PLF.Types TM subject_expansion prfax
+R2675:2676 Corelib.Init.Logic <> or ind
+R2792:2794 Corelib.Init.Logic <> not def
+R2818:2822 PLF.Types TM tm ind
+binder 2811:2811 <> t:25
+binder 2813:2814 <> t':26
+R2830:2834 PLF.Types TM ty ind
+binder 2826:2826 <> T:27
+R2851:2853 Corelib.Init.Logic <> and ind
+R2871:2881 PLF.Types TM has_type ind
+R2883:2884 PLF.TypesTest <> t':26 var
+R2886:2886 PLF.TypesTest <> T:27 var
+R2856:2862 PLF.Types TM step ind
+R2864:2864 PLF.TypesTest <> t:25 var
+R2866:2867 PLF.TypesTest <> t':26 var
+R2898:2908 PLF.Types TM has_type ind
+R2910:2910 PLF.TypesTest <> t:25 var
+R2912:2912 PLF.TypesTest <> T:27 var
+R2697:2701 PLF.Types TM tm ind
+binder 2690:2690 <> t:28
+binder 2692:2693 <> t':29
+R2709:2713 PLF.Types TM ty ind
+binder 2705:2705 <> T:30
+R2727:2729 Corelib.Init.Logic <> and ind
+R2747:2757 PLF.Types TM has_type ind
+R2759:2760 PLF.TypesTest <> t':29 var
+R2762:2762 PLF.TypesTest <> T:30 var
+R2732:2738 PLF.Types TM step ind
+R2740:2740 PLF.TypesTest <> t:28 var
+R2742:2743 PLF.TypesTest <> t':29 var
+R2771:2781 PLF.Types TM has_type ind
+R2783:2783 PLF.TypesTest <> t:28 var
+R2785:2785 PLF.TypesTest <> T:30 var
+R2651:2670 PLF.Types TM subject_expansion prfax
+R2675:2676 Corelib.Init.Logic <> or ind
+R2792:2794 Corelib.Init.Logic <> not def
+R2818:2822 PLF.Types TM tm ind
+binder 2811:2811 <> t:31
+binder 2813:2814 <> t':32
+R2830:2834 PLF.Types TM ty ind
+binder 2826:2826 <> T:33
+R2851:2853 Corelib.Init.Logic <> and ind
+R2871:2881 PLF.Types TM has_type ind
+R2883:2884 PLF.TypesTest <> t':32 var
+R2886:2886 PLF.TypesTest <> T:33 var
+R2856:2862 PLF.Types TM step ind
+R2864:2864 PLF.TypesTest <> t:31 var
+R2866:2867 PLF.TypesTest <> t':32 var
+R2898:2908 PLF.Types TM has_type ind
+R2910:2910 PLF.TypesTest <> t:31 var
+R2912:2912 PLF.TypesTest <> T:33 var
+R2697:2701 PLF.Types TM tm ind
+binder 2690:2690 <> t:34
+binder 2692:2693 <> t':35
+R2709:2713 PLF.Types TM ty ind
+binder 2705:2705 <> T:36
+R2727:2729 Corelib.Init.Logic <> and ind
+R2747:2757 PLF.Types TM has_type ind
+R2759:2760 PLF.TypesTest <> t':35 var
+R2762:2762 PLF.TypesTest <> T:36 var
+R2732:2738 PLF.Types TM step ind
+R2740:2740 PLF.TypesTest <> t:34 var
+R2742:2743 PLF.TypesTest <> t':35 var
+R2771:2781 PLF.Types TM has_type ind
+R2783:2783 PLF.TypesTest <> t:34 var
+R2785:2785 PLF.TypesTest <> T:36 var
+R2966:2985 PLF.Types TM subject_expansion prfax
+def 2988:2996 <> Unnamed_thm
+R2993:2996 Corelib.Init.Logic <> True ind
+R3176:3205 PLF.Types TM manual_grade_for_variation1 def
+R3176:3205 PLF.Types TM manual_grade_for_variation1 def
+R3385:3414 PLF.Types TM manual_grade_for_variation2 def
+R3385:3414 PLF.Types TM manual_grade_for_variation2 def
+R3598:3629 PLF.Types TM manual_grade_for_remove_pred0 def
+R3598:3629 PLF.Types TM manual_grade_for_remove_pred0 def
+R3841:3877 PLF.Types TM manual_grade_for_prog_pres_bigstep def
+R3841:3877 PLF.Types TM manual_grade_for_prog_pres_bigstep def
+R4840:4860 PLF.Types TM some_term_is_stuck prfax
+R4926:4939 PLF.Types TM value_is_nf prfax
+R5002:5012 PLF.Types TM progress prfax
+R5079:5093 PLF.Types TM preservation prfax
+R5161:5176 PLF.Types TM preservation' prfax
+R5248:5267 PLF.Types TM subject_expansion prfax

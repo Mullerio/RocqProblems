@@ -1,0 +1,107 @@
+DIGEST 4cc6f540cbc4b7e6d2024c2ecef938bb
+FPLF.TypecheckingTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:116 PLF.Typechecking <> <> lib
+ax 130:136 <> MISSING
+mod 153:157 <> Check
+R223:229 PLF.TypecheckingTest <> MISSING defax
+R223:229 PLF.TypecheckingTest <> MISSING defax
+R443:446 Corelib.Init.Datatypes <> Some constr
+R443:446 Corelib.Init.Datatypes <> Some constr
+R626:629 Corelib.Init.Datatypes <> None constr
+R626:629 Corelib.Init.Datatypes <> None constr
+R711:715 PLF.TypecheckingTest Check <> mod
+R743:754 PLF.Typechecking <> <> lib
+R764:768 PLF.TypecheckingTest Check <> mod
+def 772:780 <> Unnamed_thm
+R777:780 Corelib.Init.Logic <> True ind
+R978:1031 PLF.Typechecking TypecheckerExtensions manual_grade_for_type_check_defn def
+R978:1031 PLF.Typechecking TypecheckerExtensions manual_grade_for_type_check_defn def
+R1228:1268 PLF.Typechecking TypecheckerExtensions type_checking_sound prfax
+R1289:1317 PLF.MoreStlc STLCExtended context def
+binder 1281:1285 <> Gamma:3
+R1328:1351 PLF.MoreStlc STLCExtended tm ind
+binder 1324:1324 <> t:4
+R1359:1382 PLF.MoreStlc STLCExtended ty ind
+binder 1355:1355 <> T:5
+R1394:1395 Corelib.Init.Logic <> eq ind
+R1398:1403 Corelib.Init.Datatypes <> option ind
+R1405:1428 PLF.MoreStlc STLCExtended ty ind
+R1442:1473 PLF.Typechecking TypecheckerExtensions type_check def
+R1475:1479 PLF.TypecheckingTest <> Gamma:3 var
+R1481:1481 PLF.TypecheckingTest <> t:4 var
+R1496:1499 Corelib.Init.Datatypes <> Some constr
+R1501:1524 PLF.MoreStlc STLCExtended ty ind
+R1526:1526 PLF.TypecheckingTest <> T:5 var
+R1532:1561 PLF.MoreStlc STLCExtended has_type ind
+R1563:1567 PLF.TypecheckingTest <> Gamma:3 var
+R1569:1569 PLF.TypecheckingTest <> t:4 var
+R1571:1571 PLF.TypecheckingTest <> T:5 var
+R1228:1268 PLF.Typechecking TypecheckerExtensions type_checking_sound prfax
+R1289:1317 PLF.MoreStlc STLCExtended context def
+binder 1281:1285 <> Gamma:6
+R1328:1351 PLF.MoreStlc STLCExtended tm ind
+binder 1324:1324 <> t:7
+R1359:1382 PLF.MoreStlc STLCExtended ty ind
+binder 1355:1355 <> T:8
+R1394:1395 Corelib.Init.Logic <> eq ind
+R1398:1403 Corelib.Init.Datatypes <> option ind
+R1405:1428 PLF.MoreStlc STLCExtended ty ind
+R1442:1473 PLF.Typechecking TypecheckerExtensions type_check def
+R1475:1479 PLF.TypecheckingTest <> Gamma:6 var
+R1481:1481 PLF.TypecheckingTest <> t:7 var
+R1496:1499 Corelib.Init.Datatypes <> Some constr
+R1501:1524 PLF.MoreStlc STLCExtended ty ind
+R1526:1526 PLF.TypecheckingTest <> T:8 var
+R1532:1561 PLF.MoreStlc STLCExtended has_type ind
+R1563:1567 PLF.TypecheckingTest <> Gamma:6 var
+R1569:1569 PLF.TypecheckingTest <> t:7 var
+R1571:1571 PLF.TypecheckingTest <> T:8 var
+R1623:1663 PLF.Typechecking TypecheckerExtensions type_checking_sound prfax
+def 1666:1674 <> Unnamed_thm
+R1671:1674 Corelib.Init.Logic <> True ind
+R1877:1920 PLF.Typechecking TypecheckerExtensions type_checking_complete prfax
+R1941:1969 PLF.MoreStlc STLCExtended context def
+binder 1933:1937 <> Gamma:9
+R1980:2003 PLF.MoreStlc STLCExtended tm ind
+binder 1976:1976 <> t:10
+R2011:2034 PLF.MoreStlc STLCExtended ty ind
+binder 2007:2007 <> T:11
+R2045:2074 PLF.MoreStlc STLCExtended has_type ind
+R2076:2080 PLF.TypecheckingTest <> Gamma:9 var
+R2082:2082 PLF.TypecheckingTest <> t:10 var
+R2084:2084 PLF.TypecheckingTest <> T:11 var
+R2090:2091 Corelib.Init.Logic <> eq ind
+R2094:2099 Corelib.Init.Datatypes <> option ind
+R2101:2124 PLF.MoreStlc STLCExtended ty ind
+R2131:2162 PLF.Typechecking TypecheckerExtensions type_check def
+R2164:2168 PLF.TypecheckingTest <> Gamma:9 var
+R2170:2170 PLF.TypecheckingTest <> t:10 var
+R2178:2181 Corelib.Init.Datatypes <> Some constr
+R2183:2206 PLF.MoreStlc STLCExtended ty ind
+R2208:2208 PLF.TypecheckingTest <> T:11 var
+R1877:1920 PLF.Typechecking TypecheckerExtensions type_checking_complete prfax
+R1941:1969 PLF.MoreStlc STLCExtended context def
+binder 1933:1937 <> Gamma:12
+R1980:2003 PLF.MoreStlc STLCExtended tm ind
+binder 1976:1976 <> t:13
+R2011:2034 PLF.MoreStlc STLCExtended ty ind
+binder 2007:2007 <> T:14
+R2045:2074 PLF.MoreStlc STLCExtended has_type ind
+R2076:2080 PLF.TypecheckingTest <> Gamma:12 var
+R2082:2082 PLF.TypecheckingTest <> t:13 var
+R2084:2084 PLF.TypecheckingTest <> T:14 var
+R2090:2091 Corelib.Init.Logic <> eq ind
+R2094:2099 Corelib.Init.Datatypes <> option ind
+R2101:2124 PLF.MoreStlc STLCExtended ty ind
+R2131:2162 PLF.Typechecking TypecheckerExtensions type_check def
+R2164:2168 PLF.TypecheckingTest <> Gamma:12 var
+R2170:2170 PLF.TypecheckingTest <> t:13 var
+R2178:2181 Corelib.Init.Datatypes <> Some constr
+R2183:2206 PLF.MoreStlc STLCExtended ty ind
+R2208:2208 PLF.TypecheckingTest <> T:14 var
+R2261:2304 PLF.Typechecking TypecheckerExtensions type_checking_complete prfax
+def 2307:2315 <> Unnamed_thm
+R2312:2315 Corelib.Init.Logic <> True ind
+R3360:3400 PLF.Typechecking TypecheckerExtensions type_checking_sound prfax
+R3496:3539 PLF.Typechecking TypecheckerExtensions type_checking_complete prfax

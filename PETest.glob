@@ -1,0 +1,17 @@
+DIGEST 83d1303ee797e50f4368b9d9354a767b
+FPLF.PETest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:106 PLF.PE <> <> lib
+ax 120:126 <> MISSING
+mod 143:147 <> Check
+R213:219 PLF.PETest <> MISSING defax
+R213:219 PLF.PETest <> MISSING defax
+R433:436 Corelib.Init.Datatypes <> Some constr
+R433:436 Corelib.Init.Datatypes <> Some constr
+R616:619 Corelib.Init.Datatypes <> None constr
+R616:619 Corelib.Init.Datatypes <> None constr
+R701:705 PLF.PETest Check <> mod
+R733:734 PLF.PE <> <> lib
+R744:748 PLF.PETest Check <> mod
+def 752:760 <> Unnamed_thm
+R757:760 Corelib.Init.Logic <> True ind

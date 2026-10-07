@@ -1,0 +1,17 @@
+DIGEST ee685b479b201641cb73d4d6b572a7ab
+FPLF.PrefaceTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:111 PLF.Preface <> <> lib
+ax 125:131 <> MISSING
+mod 148:152 <> Check
+R218:224 PLF.PrefaceTest <> MISSING defax
+R218:224 PLF.PrefaceTest <> MISSING defax
+R438:441 Corelib.Init.Datatypes <> Some constr
+R438:441 Corelib.Init.Datatypes <> Some constr
+R621:624 Corelib.Init.Datatypes <> None constr
+R621:624 Corelib.Init.Datatypes <> None constr
+R706:710 PLF.PrefaceTest Check <> mod
+R738:744 PLF.Preface <> <> lib
+R754:758 PLF.PrefaceTest Check <> mod
+def 762:770 <> Unnamed_thm
+R767:770 Corelib.Init.Logic <> True ind

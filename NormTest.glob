@@ -1,0 +1,833 @@
+DIGEST 58c34587f31d34860cdb5ccb114264e9
+FPLF.NormTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:108 PLF.Norm <> <> lib
+ax 122:128 <> MISSING
+mod 145:149 <> Check
+R215:221 PLF.NormTest <> MISSING defax
+R215:221 PLF.NormTest <> MISSING defax
+R435:438 Corelib.Init.Datatypes <> Some constr
+R435:438 Corelib.Init.Datatypes <> Some constr
+R618:621 Corelib.Init.Datatypes <> None constr
+R618:621 Corelib.Init.Datatypes <> None constr
+R703:707 PLF.NormTest Check <> mod
+R735:738 PLF.Norm <> <> lib
+R748:752 PLF.NormTest Check <> mod
+def 756:764 <> Unnamed_thm
+R761:764 Corelib.Init.Logic <> True ind
+R928:953 PLF.Norm <> manual_grade_for_norm_fail def
+R928:953 PLF.Norm <> manual_grade_for_norm_fail def
+R1108:1118 PLF.Norm <> value_halts prfax
+R1134:1135 PLF.Norm <> tm ind
+binder 1130:1130 <> v:3
+R1143:1147 PLF.Norm <> value ind
+R1149:1149 PLF.NormTest <> v:3 var
+R1153:1157 PLF.Norm <> halts def
+R1159:1159 PLF.NormTest <> v:3 var
+R1108:1118 PLF.Norm <> value_halts prfax
+R1134:1135 PLF.Norm <> tm ind
+binder 1130:1130 <> v:4
+R1143:1147 PLF.Norm <> value ind
+R1149:1149 PLF.NormTest <> v:4 var
+R1153:1157 PLF.Norm <> halts def
+R1159:1159 PLF.NormTest <> v:4 var
+R1211:1221 PLF.Norm <> value_halts prfax
+def 1224:1232 <> Unnamed_thm
+R1229:1232 Corelib.Init.Logic <> True ind
+R1409:1430 PLF.Norm <> step_preserves_halting prfax
+R1450:1451 PLF.Norm <> tm ind
+binder 1443:1443 <> t:5
+binder 1445:1446 <> t':6
+R1459:1462 PLF.Norm <> step ind
+R1464:1464 PLF.NormTest <> t:5 var
+R1466:1467 PLF.NormTest <> t':6 var
+R1471:1473 Corelib.Init.Logic <> iff def
+R1486:1490 PLF.Norm <> halts def
+R1492:1493 PLF.NormTest <> t':6 var
+R1476:1480 PLF.Norm <> halts def
+R1482:1482 PLF.NormTest <> t:5 var
+R1409:1430 PLF.Norm <> step_preserves_halting prfax
+R1450:1451 PLF.Norm <> tm ind
+binder 1443:1443 <> t:7
+binder 1445:1446 <> t':8
+R1459:1462 PLF.Norm <> step ind
+R1464:1464 PLF.NormTest <> t:7 var
+R1466:1467 PLF.NormTest <> t':8 var
+R1471:1473 Corelib.Init.Logic <> iff def
+R1486:1490 PLF.Norm <> halts def
+R1492:1493 PLF.NormTest <> t':8 var
+R1476:1480 PLF.Norm <> halts def
+R1482:1482 PLF.NormTest <> t:7 var
+R1546:1567 PLF.Norm <> step_preserves_halting prfax
+def 1570:1578 <> Unnamed_thm
+R1575:1578 Corelib.Init.Logic <> True ind
+R1755:1781 PLF.Norm <> manual_grade_for_N_products def
+R1755:1781 PLF.Norm <> manual_grade_for_N_products def
+R1946:1961 PLF.Norm <> step_preserves_N prfax
+R1978:1979 PLF.Norm <> ty ind
+binder 1974:1974 <> T:9
+R1990:1991 PLF.Norm <> tm ind
+binder 1983:1983 <> t:10
+binder 1985:1986 <> t':11
+R1999:2002 PLF.Norm <> step ind
+R2004:2004 PLF.NormTest <> t:10 var
+R2006:2007 PLF.NormTest <> t':11 var
+R2015:2015 PLF.Norm <> N def
+R2017:2017 PLF.NormTest <> T:9 var
+R2019:2019 PLF.NormTest <> t:10 var
+R2023:2023 PLF.Norm <> N def
+R2025:2025 PLF.NormTest <> T:9 var
+R2027:2028 PLF.NormTest <> t':11 var
+R1946:1961 PLF.Norm <> step_preserves_N prfax
+R1978:1979 PLF.Norm <> ty ind
+binder 1974:1974 <> T:12
+R1990:1991 PLF.Norm <> tm ind
+binder 1983:1983 <> t:13
+binder 1985:1986 <> t':14
+R1999:2002 PLF.Norm <> step ind
+R2004:2004 PLF.NormTest <> t:13 var
+R2006:2007 PLF.NormTest <> t':14 var
+R2015:2015 PLF.Norm <> N def
+R2017:2017 PLF.NormTest <> T:12 var
+R2019:2019 PLF.NormTest <> t:13 var
+R2023:2023 PLF.Norm <> N def
+R2025:2025 PLF.NormTest <> T:12 var
+R2027:2028 PLF.NormTest <> t':14 var
+R2080:2095 PLF.Norm <> step_preserves_N prfax
+def 2098:2106 <> Unnamed_thm
+R2103:2106 Corelib.Init.Logic <> True ind
+R2273:2289 PLF.Norm <> step_preserves_N' prfax
+R2306:2307 PLF.Norm <> ty ind
+binder 2302:2302 <> T:15
+R2318:2319 PLF.Norm <> tm ind
+binder 2311:2311 <> t:16
+binder 2313:2314 <> t':17
+R2327:2334 PLF.Norm <> has_type ind
+R2338:2347 PLF.Maps <> empty def
+R2349:2350 PLF.Norm <> ty ind
+R2353:2353 PLF.NormTest <> t:16 var
+R2355:2355 PLF.NormTest <> T:15 var
+R2366:2369 PLF.Norm <> step ind
+R2371:2371 PLF.NormTest <> t:16 var
+R2373:2374 PLF.NormTest <> t':17 var
+R2382:2382 PLF.Norm <> N def
+R2384:2384 PLF.NormTest <> T:15 var
+R2386:2387 PLF.NormTest <> t':17 var
+R2392:2392 PLF.Norm <> N def
+R2394:2394 PLF.NormTest <> T:15 var
+R2396:2396 PLF.NormTest <> t:16 var
+R2273:2289 PLF.Norm <> step_preserves_N' prfax
+R2306:2307 PLF.Norm <> ty ind
+binder 2302:2302 <> T:18
+R2318:2319 PLF.Norm <> tm ind
+binder 2311:2311 <> t:19
+binder 2313:2314 <> t':20
+R2327:2334 PLF.Norm <> has_type ind
+R2338:2347 PLF.Maps <> empty def
+R2349:2350 PLF.Norm <> ty ind
+R2353:2353 PLF.NormTest <> t:19 var
+R2355:2355 PLF.NormTest <> T:18 var
+R2366:2369 PLF.Norm <> step ind
+R2371:2371 PLF.NormTest <> t:19 var
+R2373:2374 PLF.NormTest <> t':20 var
+R2382:2382 PLF.Norm <> N def
+R2384:2384 PLF.NormTest <> T:18 var
+R2386:2387 PLF.NormTest <> t':20 var
+R2392:2392 PLF.Norm <> N def
+R2394:2394 PLF.NormTest <> T:18 var
+R2396:2396 PLF.NormTest <> t:19 var
+R2448:2464 PLF.Norm <> step_preserves_N' prfax
+def 2467:2475 <> Unnamed_thm
+R2472:2475 Corelib.Init.Logic <> True ind
+R2628:2637 PLF.Norm <> swap_subst prfax
+R2654:2655 PLF.Norm <> tm ind
+binder 2650:2650 <> t:21
+R2666:2678 Stdlib.Strings.String <> string ind
+binder 2659:2659 <> x:22
+binder 2661:2662 <> x1:23
+R2689:2690 PLF.Norm <> tm ind
+binder 2682:2682 <> v:24
+binder 2684:2685 <> v1:25
+R2701:2703 Corelib.Init.Logic <> not def
+R2707:2708 Corelib.Init.Logic <> eq ind
+R2710:2722 Stdlib.Strings.String <> string ind
+R2724:2724 PLF.NormTest <> x:22 var
+R2726:2727 PLF.NormTest <> x1:23 var
+R2736:2741 PLF.Norm <> closed def
+R2743:2743 PLF.NormTest <> v:24 var
+R2754:2759 PLF.Norm <> closed def
+R2761:2762 PLF.NormTest <> v1:25 var
+R2768:2769 Corelib.Init.Logic <> eq ind
+R2771:2772 PLF.Norm <> tm ind
+R2775:2779 PLF.Norm <> subst def
+R2781:2782 PLF.NormTest <> x1:23 var
+R2784:2785 PLF.NormTest <> v1:25 var
+R2788:2792 PLF.Norm <> subst def
+R2794:2794 PLF.NormTest <> x:22 var
+R2796:2796 PLF.NormTest <> v:24 var
+R2798:2798 PLF.NormTest <> t:21 var
+R2803:2807 PLF.Norm <> subst def
+R2809:2809 PLF.NormTest <> x:22 var
+R2811:2811 PLF.NormTest <> v:24 var
+R2814:2818 PLF.Norm <> subst def
+R2820:2821 PLF.NormTest <> x1:23 var
+R2823:2824 PLF.NormTest <> v1:25 var
+R2826:2826 PLF.NormTest <> t:21 var
+R2628:2637 PLF.Norm <> swap_subst prfax
+R2654:2655 PLF.Norm <> tm ind
+binder 2650:2650 <> t:26
+R2666:2678 Stdlib.Strings.String <> string ind
+binder 2659:2659 <> x:27
+binder 2661:2662 <> x1:28
+R2689:2690 PLF.Norm <> tm ind
+binder 2682:2682 <> v:29
+binder 2684:2685 <> v1:30
+R2701:2703 Corelib.Init.Logic <> not def
+R2707:2708 Corelib.Init.Logic <> eq ind
+R2710:2722 Stdlib.Strings.String <> string ind
+R2724:2724 PLF.NormTest <> x:27 var
+R2726:2727 PLF.NormTest <> x1:28 var
+R2736:2741 PLF.Norm <> closed def
+R2743:2743 PLF.NormTest <> v:29 var
+R2754:2759 PLF.Norm <> closed def
+R2761:2762 PLF.NormTest <> v1:30 var
+R2768:2769 Corelib.Init.Logic <> eq ind
+R2771:2772 PLF.Norm <> tm ind
+R2775:2779 PLF.Norm <> subst def
+R2781:2782 PLF.NormTest <> x1:28 var
+R2784:2785 PLF.NormTest <> v1:30 var
+R2788:2792 PLF.Norm <> subst def
+R2794:2794 PLF.NormTest <> x:27 var
+R2796:2796 PLF.NormTest <> v:29 var
+R2798:2798 PLF.NormTest <> t:26 var
+R2803:2807 PLF.Norm <> subst def
+R2809:2809 PLF.NormTest <> x:27 var
+R2811:2811 PLF.NormTest <> v:29 var
+R2814:2818 PLF.Norm <> subst def
+R2820:2821 PLF.NormTest <> x1:28 var
+R2823:2824 PLF.NormTest <> v1:30 var
+R2826:2826 PLF.NormTest <> t:26 var
+R2880:2889 PLF.Norm <> swap_subst prfax
+def 2892:2900 <> Unnamed_thm
+R2897:2900 Corelib.Init.Logic <> True ind
+R3057:3068 PLF.Norm <> msubst_subst prfax
+R3085:3087 PLF.Norm <> env def
+binder 3081:3081 <> e:31
+R3095:3107 Stdlib.Strings.String <> string ind
+binder 3091:3091 <> x:32
+R3117:3118 PLF.Norm <> tm ind
+binder 3111:3111 <> v:33
+binder 3113:3113 <> t:34
+R3126:3131 PLF.Norm <> closed def
+R3133:3133 PLF.NormTest <> v:33 var
+R3144:3153 PLF.Norm <> closed_env def
+R3155:3155 PLF.NormTest <> e:31 var
+R3161:3162 Corelib.Init.Logic <> eq ind
+R3164:3165 PLF.Norm <> tm ind
+R3168:3173 PLF.Norm <> msubst def
+R3175:3175 PLF.NormTest <> e:31 var
+R3178:3182 PLF.Norm <> subst def
+R3184:3184 PLF.NormTest <> x:32 var
+R3186:3186 PLF.NormTest <> v:33 var
+R3188:3188 PLF.NormTest <> t:34 var
+R3193:3197 PLF.Norm <> subst def
+R3199:3199 PLF.NormTest <> x:32 var
+R3201:3201 PLF.NormTest <> v:33 var
+R3204:3209 PLF.Norm <> msubst def
+R3212:3217 PLF.Norm <> remove def
+R3219:3219 PLF.NormTest <> x:32 var
+R3221:3221 PLF.NormTest <> e:31 var
+R3224:3224 PLF.NormTest <> t:34 var
+R3057:3068 PLF.Norm <> msubst_subst prfax
+R3085:3087 PLF.Norm <> env def
+binder 3081:3081 <> e:35
+R3095:3107 Stdlib.Strings.String <> string ind
+binder 3091:3091 <> x:36
+R3117:3118 PLF.Norm <> tm ind
+binder 3111:3111 <> v:37
+binder 3113:3113 <> t:38
+R3126:3131 PLF.Norm <> closed def
+R3133:3133 PLF.NormTest <> v:37 var
+R3144:3153 PLF.Norm <> closed_env def
+R3155:3155 PLF.NormTest <> e:35 var
+R3161:3162 Corelib.Init.Logic <> eq ind
+R3164:3165 PLF.Norm <> tm ind
+R3168:3173 PLF.Norm <> msubst def
+R3175:3175 PLF.NormTest <> e:35 var
+R3178:3182 PLF.Norm <> subst def
+R3184:3184 PLF.NormTest <> x:36 var
+R3186:3186 PLF.NormTest <> v:37 var
+R3188:3188 PLF.NormTest <> t:38 var
+R3193:3197 PLF.Norm <> subst def
+R3199:3199 PLF.NormTest <> x:36 var
+R3201:3201 PLF.NormTest <> v:37 var
+R3204:3209 PLF.Norm <> msubst def
+R3212:3217 PLF.Norm <> remove def
+R3219:3219 PLF.NormTest <> x:36 var
+R3221:3221 PLF.NormTest <> e:35 var
+R3224:3224 PLF.NormTest <> t:38 var
+R3278:3289 PLF.Norm <> msubst_subst prfax
+def 3292:3300 <> Unnamed_thm
+R3297:3300 Corelib.Init.Logic <> True ind
+R3453:3462 PLF.Norm <> msubst_app prfax
+R3480:3482 PLF.Norm <> env def
+binder 3475:3476 <> ss:39
+R3494:3495 PLF.Norm <> tm ind
+binder 3486:3487 <> t1:40
+binder 3489:3490 <> t2:41
+R3501:3502 Corelib.Init.Logic <> eq ind
+R3504:3505 PLF.Norm <> tm ind
+R3508:3513 PLF.Norm <> msubst def
+R3515:3516 PLF.NormTest <> ss:39 var
+R3519:3524 PLF.Norm <> tm_app constr
+R3526:3527 PLF.NormTest <> t1:40 var
+R3529:3530 PLF.NormTest <> t2:41 var
+R3535:3540 PLF.Norm <> tm_app constr
+R3543:3548 PLF.Norm <> msubst def
+R3550:3551 PLF.NormTest <> ss:39 var
+R3553:3554 PLF.NormTest <> t1:40 var
+R3558:3563 PLF.Norm <> msubst def
+R3565:3566 PLF.NormTest <> ss:39 var
+R3568:3569 PLF.NormTest <> t2:41 var
+R3453:3462 PLF.Norm <> msubst_app prfax
+R3480:3482 PLF.Norm <> env def
+binder 3475:3476 <> ss:42
+R3494:3495 PLF.Norm <> tm ind
+binder 3486:3487 <> t1:43
+binder 3489:3490 <> t2:44
+R3501:3502 Corelib.Init.Logic <> eq ind
+R3504:3505 PLF.Norm <> tm ind
+R3508:3513 PLF.Norm <> msubst def
+R3515:3516 PLF.NormTest <> ss:42 var
+R3519:3524 PLF.Norm <> tm_app constr
+R3526:3527 PLF.NormTest <> t1:43 var
+R3529:3530 PLF.NormTest <> t2:44 var
+R3535:3540 PLF.Norm <> tm_app constr
+R3543:3548 PLF.Norm <> msubst def
+R3550:3551 PLF.NormTest <> ss:42 var
+R3553:3554 PLF.NormTest <> t1:43 var
+R3558:3563 PLF.Norm <> msubst def
+R3565:3566 PLF.NormTest <> ss:42 var
+R3568:3569 PLF.NormTest <> t2:44 var
+R3623:3632 PLF.Norm <> msubst_app prfax
+def 3635:3643 <> Unnamed_thm
+R3640:3643 Corelib.Init.Logic <> True ind
+R3816:3835 PLF.Norm <> instantiation_msubst prfax
+R3864:3865 PLF.Norm <> ty ind
+R3873:3874 PLF.Norm <> tm ind
+binder 3848:3848 <> R:45
+R3890:3897 PLF.Norm <> R_closed def
+R3899:3899 PLF.NormTest <> R:45 var
+binder 3885:3886 <> RC:46
+R3910:3913 PLF.Norm <> tass def
+binder 3906:3906 <> c:47
+R3921:3923 PLF.Norm <> env def
+binder 3917:3917 <> e:48
+R3931:3943 PLF.Norm <> instantiation ind
+R3945:3945 PLF.NormTest <> R:45 var
+R3947:3948 PLF.NormTest <> RC:46 var
+R3950:3950 PLF.NormTest <> c:47 var
+R3952:3952 PLF.NormTest <> e:48 var
+R3963:3975 Stdlib.Strings.String <> string ind
+binder 3959:3959 <> x:49
+R3983:3984 PLF.Norm <> ty ind
+binder 3979:3979 <> T:50
+R3996:3997 Corelib.Init.Logic <> eq ind
+R4000:4005 Corelib.Init.Datatypes <> option ind
+R4007:4008 PLF.Norm <> ty ind
+R4012:4023 PLF.Norm <> tass_context def
+R4025:4025 PLF.NormTest <> c:47 var
+R4027:4027 PLF.NormTest <> x:49 var
+R4032:4035 Corelib.Init.Datatypes <> Some constr
+R4037:4038 PLF.Norm <> ty ind
+R4040:4040 PLF.NormTest <> T:50 var
+R4046:4046 PLF.NormTest <> R:45 var
+R4051:4056 PLF.Norm <> msubst def
+R4058:4058 PLF.NormTest <> e:48 var
+R4061:4066 PLF.Norm <> tm_var constr
+R4068:4068 PLF.NormTest <> x:49 var
+R4048:4048 PLF.NormTest <> T:50 var
+R3816:3835 PLF.Norm <> instantiation_msubst prfax
+R3864:3865 PLF.Norm <> ty ind
+R3873:3874 PLF.Norm <> tm ind
+binder 3848:3848 <> R:51
+R3890:3897 PLF.Norm <> R_closed def
+R3899:3899 PLF.NormTest <> R:51 var
+binder 3885:3886 <> RC:52
+R3910:3913 PLF.Norm <> tass def
+binder 3906:3906 <> c:53
+R3921:3923 PLF.Norm <> env def
+binder 3917:3917 <> e:54
+R3931:3943 PLF.Norm <> instantiation ind
+R3945:3945 PLF.NormTest <> R:51 var
+R3947:3948 PLF.NormTest <> RC:52 var
+R3950:3950 PLF.NormTest <> c:53 var
+R3952:3952 PLF.NormTest <> e:54 var
+R3963:3975 Stdlib.Strings.String <> string ind
+binder 3959:3959 <> x:55
+R3983:3984 PLF.Norm <> ty ind
+binder 3979:3979 <> T:56
+R3996:3997 Corelib.Init.Logic <> eq ind
+R4000:4005 Corelib.Init.Datatypes <> option ind
+R4007:4008 PLF.Norm <> ty ind
+R4012:4023 PLF.Norm <> tass_context def
+R4025:4025 PLF.NormTest <> c:53 var
+R4027:4027 PLF.NormTest <> x:55 var
+R4032:4035 Corelib.Init.Datatypes <> Some constr
+R4037:4038 PLF.Norm <> ty ind
+R4040:4040 PLF.NormTest <> T:56 var
+R4046:4046 PLF.NormTest <> R:51 var
+R4051:4056 PLF.Norm <> msubst def
+R4058:4058 PLF.NormTest <> e:54 var
+R4061:4066 PLF.Norm <> tm_var constr
+R4068:4068 PLF.NormTest <> x:55 var
+R4048:4048 PLF.NormTest <> T:56 var
+R4122:4141 PLF.Norm <> instantiation_msubst prfax
+def 4144:4152 <> Unnamed_thm
+R4149:4152 Corelib.Init.Logic <> True ind
+R4333:4356 PLF.Norm <> instantiation_env_closed prfax
+R4385:4386 PLF.Norm <> ty ind
+R4394:4395 PLF.Norm <> tm ind
+binder 4369:4369 <> R:57
+R4411:4418 PLF.Norm <> R_closed def
+R4420:4420 PLF.NormTest <> R:57 var
+binder 4406:4407 <> RC:58
+R4431:4434 PLF.Norm <> tass def
+binder 4427:4427 <> c:59
+R4442:4444 PLF.Norm <> env def
+binder 4438:4438 <> e:60
+R4452:4464 PLF.Norm <> instantiation ind
+R4466:4466 PLF.NormTest <> R:57 var
+R4468:4469 PLF.NormTest <> RC:58 var
+R4471:4471 PLF.NormTest <> c:59 var
+R4473:4473 PLF.NormTest <> e:60 var
+R4478:4487 PLF.Norm <> closed_env def
+R4489:4489 PLF.NormTest <> e:60 var
+R4333:4356 PLF.Norm <> instantiation_env_closed prfax
+R4385:4386 PLF.Norm <> ty ind
+R4394:4395 PLF.Norm <> tm ind
+binder 4369:4369 <> R:61
+R4411:4418 PLF.Norm <> R_closed def
+R4420:4420 PLF.NormTest <> R:61 var
+binder 4406:4407 <> RC:62
+R4431:4434 PLF.Norm <> tass def
+binder 4427:4427 <> c:63
+R4442:4444 PLF.Norm <> env def
+binder 4438:4438 <> e:64
+R4452:4464 PLF.Norm <> instantiation ind
+R4466:4466 PLF.NormTest <> R:61 var
+R4468:4469 PLF.NormTest <> RC:62 var
+R4471:4471 PLF.NormTest <> c:63 var
+R4473:4473 PLF.NormTest <> e:64 var
+R4478:4487 PLF.Norm <> closed_env def
+R4489:4489 PLF.NormTest <> e:64 var
+R4541:4564 PLF.Norm <> instantiation_env_closed prfax
+def 4567:4575 <> Unnamed_thm
+R4572:4575 Corelib.Init.Logic <> True ind
+R4772:4803 PLF.Norm <> N_instantiation_preserves_typing prfax
+R4820:4823 PLF.Norm <> tass def
+binder 4816:4816 <> c:65
+R4831:4833 PLF.Norm <> env def
+binder 4827:4827 <> e:66
+R4841:4853 PLF.Norm <> instantiation ind
+R4855:4855 PLF.Norm <> N def
+R4857:4864 PLF.Norm <> N_closed thm
+R4866:4866 PLF.NormTest <> c:65 var
+R4868:4868 PLF.NormTest <> e:66 var
+R4883:4889 PLF.Norm <> context def
+binder 4875:4879 <> Gamma:67
+R4897:4898 PLF.Norm <> tm ind
+binder 4893:4893 <> t:68
+R4906:4907 PLF.Norm <> ty ind
+binder 4902:4902 <> S:69
+R4915:4922 PLF.Norm <> has_type ind
+R4925:4931 PLF.Norm <> mupdate def
+R4933:4937 PLF.NormTest <> Gamma:67 var
+R4939:4939 PLF.NormTest <> c:65 var
+R4942:4942 PLF.NormTest <> t:68 var
+R4944:4944 PLF.NormTest <> S:69 var
+R4949:4956 PLF.Norm <> has_type ind
+R4958:4962 PLF.NormTest <> Gamma:67 var
+R4965:4970 PLF.Norm <> msubst def
+R4972:4972 PLF.NormTest <> e:66 var
+R4974:4974 PLF.NormTest <> t:68 var
+R4977:4977 PLF.NormTest <> S:69 var
+R4772:4803 PLF.Norm <> N_instantiation_preserves_typing prfax
+R4820:4823 PLF.Norm <> tass def
+binder 4816:4816 <> c:70
+R4831:4833 PLF.Norm <> env def
+binder 4827:4827 <> e:71
+R4841:4853 PLF.Norm <> instantiation ind
+R4855:4855 PLF.Norm <> N def
+R4857:4864 PLF.Norm <> N_closed thm
+R4866:4866 PLF.NormTest <> c:70 var
+R4868:4868 PLF.NormTest <> e:71 var
+R4883:4889 PLF.Norm <> context def
+binder 4875:4879 <> Gamma:72
+R4897:4898 PLF.Norm <> tm ind
+binder 4893:4893 <> t:73
+R4906:4907 PLF.Norm <> ty ind
+binder 4902:4902 <> S:74
+R4915:4922 PLF.Norm <> has_type ind
+R4925:4931 PLF.Norm <> mupdate def
+R4933:4937 PLF.NormTest <> Gamma:72 var
+R4939:4939 PLF.NormTest <> c:70 var
+R4942:4942 PLF.NormTest <> t:73 var
+R4944:4944 PLF.NormTest <> S:74 var
+R4949:4956 PLF.Norm <> has_type ind
+R4958:4962 PLF.NormTest <> Gamma:72 var
+R4965:4970 PLF.Norm <> msubst def
+R4972:4972 PLF.NormTest <> e:71 var
+R4974:4974 PLF.NormTest <> t:73 var
+R4977:4977 PLF.NormTest <> S:74 var
+R5029:5060 PLF.Norm <> N_instantiation_preserves_typing prfax
+def 5063:5071 <> Unnamed_thm
+R5068:5071 Corelib.Init.Logic <> True ind
+R5232:5245 PLF.Norm <> multistep_App2 prfax
+R5267:5268 PLF.Norm <> tm ind
+binder 5258:5258 <> v:75
+binder 5260:5260 <> t:76
+binder 5262:5263 <> t':77
+R5276:5280 PLF.Norm <> value ind
+R5282:5282 PLF.NormTest <> v:75 var
+R5291:5305 PLF.Smallstep <> multi ind
+R5307:5308 PLF.Norm <> tm ind
+R5310:5313 PLF.Norm <> step ind
+R5315:5315 PLF.NormTest <> t:76 var
+R5317:5318 PLF.NormTest <> t':77 var
+R5324:5338 PLF.Smallstep <> multi ind
+R5340:5341 PLF.Norm <> tm ind
+R5343:5346 PLF.Norm <> step ind
+R5349:5354 PLF.Norm <> tm_app constr
+R5356:5356 PLF.NormTest <> v:75 var
+R5358:5358 PLF.NormTest <> t:76 var
+R5362:5367 PLF.Norm <> tm_app constr
+R5369:5369 PLF.NormTest <> v:75 var
+R5371:5372 PLF.NormTest <> t':77 var
+R5232:5245 PLF.Norm <> multistep_App2 prfax
+R5267:5268 PLF.Norm <> tm ind
+binder 5258:5258 <> v:78
+binder 5260:5260 <> t:79
+binder 5262:5263 <> t':80
+R5276:5280 PLF.Norm <> value ind
+R5282:5282 PLF.NormTest <> v:78 var
+R5291:5305 PLF.Smallstep <> multi ind
+R5307:5308 PLF.Norm <> tm ind
+R5310:5313 PLF.Norm <> step ind
+R5315:5315 PLF.NormTest <> t:79 var
+R5317:5318 PLF.NormTest <> t':80 var
+R5324:5338 PLF.Smallstep <> multi ind
+R5340:5341 PLF.Norm <> tm ind
+R5343:5346 PLF.Norm <> step ind
+R5349:5354 PLF.Norm <> tm_app constr
+R5356:5356 PLF.NormTest <> v:78 var
+R5358:5358 PLF.NormTest <> t:79 var
+R5362:5367 PLF.Norm <> tm_app constr
+R5369:5369 PLF.NormTest <> v:78 var
+R5371:5372 PLF.NormTest <> t':80 var
+R5425:5438 PLF.Norm <> multistep_App2 prfax
+def 5441:5449 <> Unnamed_thm
+R5446:5449 Corelib.Init.Logic <> True ind
+R5601:5609 PLF.Norm <> typable_N prfax
+R5626:5629 PLF.Norm <> tass def
+binder 5622:5622 <> c:81
+R5637:5638 PLF.Norm <> tm ind
+binder 5633:5633 <> t:82
+R5646:5647 PLF.Norm <> ty ind
+binder 5642:5642 <> T:83
+R5655:5662 PLF.Norm <> has_type ind
+R5665:5676 PLF.Norm <> tass_context def
+R5678:5678 PLF.NormTest <> c:81 var
+R5681:5681 PLF.NormTest <> t:82 var
+R5683:5683 PLF.NormTest <> T:83 var
+R5694:5696 PLF.Norm <> env def
+binder 5690:5690 <> e:84
+R5704:5716 PLF.Norm <> instantiation ind
+R5718:5718 PLF.Norm <> N def
+R5720:5727 PLF.Norm <> N_closed thm
+R5729:5729 PLF.NormTest <> c:81 var
+R5731:5731 PLF.NormTest <> e:84 var
+R5736:5736 PLF.Norm <> N def
+R5738:5738 PLF.NormTest <> T:83 var
+R5741:5746 PLF.Norm <> msubst def
+R5748:5748 PLF.NormTest <> e:84 var
+R5750:5750 PLF.NormTest <> t:82 var
+R5601:5609 PLF.Norm <> typable_N prfax
+R5626:5629 PLF.Norm <> tass def
+binder 5622:5622 <> c:85
+R5637:5638 PLF.Norm <> tm ind
+binder 5633:5633 <> t:86
+R5646:5647 PLF.Norm <> ty ind
+binder 5642:5642 <> T:87
+R5655:5662 PLF.Norm <> has_type ind
+R5665:5676 PLF.Norm <> tass_context def
+R5678:5678 PLF.NormTest <> c:85 var
+R5681:5681 PLF.NormTest <> t:86 var
+R5683:5683 PLF.NormTest <> T:87 var
+R5694:5696 PLF.Norm <> env def
+binder 5690:5690 <> e:88
+R5704:5716 PLF.Norm <> instantiation ind
+R5718:5718 PLF.Norm <> N def
+R5720:5727 PLF.Norm <> N_closed thm
+R5729:5729 PLF.NormTest <> c:85 var
+R5731:5731 PLF.NormTest <> e:88 var
+R5736:5736 PLF.Norm <> N def
+R5738:5738 PLF.NormTest <> T:87 var
+R5741:5746 PLF.Norm <> msubst def
+R5748:5748 PLF.NormTest <> e:88 var
+R5750:5750 PLF.NormTest <> t:86 var
+R5803:5811 PLF.Norm <> typable_N prfax
+def 5814:5822 <> Unnamed_thm
+R5819:5822 Corelib.Init.Logic <> True ind
+R6001:6028 PLF.Norm <> manual_grade_for_Sv_products def
+R6001:6028 PLF.Norm <> manual_grade_for_Sv_products def
+R6173:6178 PLF.Norm <> Sv_val prfax
+R6194:6195 PLF.Norm <> ty ind
+binder 6190:6190 <> T:89
+R6203:6204 PLF.Norm <> tm ind
+binder 6199:6199 <> t:90
+R6212:6213 PLF.Norm <> Sv def
+R6215:6215 PLF.NormTest <> T:89 var
+R6217:6217 PLF.NormTest <> t:90 var
+R6221:6225 PLF.Norm <> value ind
+R6227:6227 PLF.NormTest <> t:90 var
+R6173:6178 PLF.Norm <> Sv_val prfax
+R6194:6195 PLF.Norm <> ty ind
+binder 6190:6190 <> T:91
+R6203:6204 PLF.Norm <> tm ind
+binder 6199:6199 <> t:92
+R6212:6213 PLF.Norm <> Sv def
+R6215:6215 PLF.NormTest <> T:91 var
+R6217:6217 PLF.NormTest <> t:92 var
+R6221:6225 PLF.Norm <> value ind
+R6227:6227 PLF.NormTest <> t:92 var
+R6279:6284 PLF.Norm <> Sv_val prfax
+def 6287:6295 <> Unnamed_thm
+R6292:6295 Corelib.Init.Logic <> True ind
+R6468:6487 PLF.Norm <> instantiation_closes prfax
+R6516:6517 PLF.Norm <> ty ind
+R6525:6526 PLF.Norm <> tm ind
+binder 6500:6500 <> R:93
+R6542:6549 PLF.Norm <> R_closed def
+R6551:6551 PLF.NormTest <> R:93 var
+binder 6537:6538 <> RC:94
+R6562:6565 PLF.Norm <> tass def
+binder 6558:6558 <> c:95
+R6573:6575 PLF.Norm <> env def
+binder 6569:6569 <> e:96
+R6583:6595 PLF.Norm <> instantiation ind
+R6597:6597 PLF.NormTest <> R:93 var
+R6599:6600 PLF.NormTest <> RC:94 var
+R6602:6602 PLF.NormTest <> c:95 var
+R6604:6604 PLF.NormTest <> e:96 var
+R6615:6616 PLF.Norm <> tm ind
+binder 6611:6611 <> t:97
+R6624:6625 PLF.Norm <> ty ind
+binder 6620:6620 <> T:98
+R6633:6640 PLF.Norm <> has_type ind
+R6643:6654 PLF.Norm <> tass_context def
+R6656:6656 PLF.NormTest <> c:95 var
+R6659:6659 PLF.NormTest <> t:97 var
+R6661:6661 PLF.NormTest <> T:98 var
+R6666:6671 PLF.Norm <> closed def
+R6674:6679 PLF.Norm <> msubst def
+R6681:6681 PLF.NormTest <> e:96 var
+R6683:6683 PLF.NormTest <> t:97 var
+R6468:6487 PLF.Norm <> instantiation_closes prfax
+R6516:6517 PLF.Norm <> ty ind
+R6525:6526 PLF.Norm <> tm ind
+binder 6500:6500 <> R:99
+R6542:6549 PLF.Norm <> R_closed def
+R6551:6551 PLF.NormTest <> R:99 var
+binder 6537:6538 <> RC:100
+R6562:6565 PLF.Norm <> tass def
+binder 6558:6558 <> c:101
+R6573:6575 PLF.Norm <> env def
+binder 6569:6569 <> e:102
+R6583:6595 PLF.Norm <> instantiation ind
+R6597:6597 PLF.NormTest <> R:99 var
+R6599:6600 PLF.NormTest <> RC:100 var
+R6602:6602 PLF.NormTest <> c:101 var
+R6604:6604 PLF.NormTest <> e:102 var
+R6615:6616 PLF.Norm <> tm ind
+binder 6611:6611 <> t:103
+R6624:6625 PLF.Norm <> ty ind
+binder 6620:6620 <> T:104
+R6633:6640 PLF.Norm <> has_type ind
+R6643:6654 PLF.Norm <> tass_context def
+R6656:6656 PLF.NormTest <> c:101 var
+R6659:6659 PLF.NormTest <> t:103 var
+R6661:6661 PLF.NormTest <> T:104 var
+R6666:6671 PLF.Norm <> closed def
+R6674:6679 PLF.Norm <> msubst def
+R6681:6681 PLF.NormTest <> e:102 var
+R6683:6683 PLF.NormTest <> t:103 var
+R6736:6755 PLF.Norm <> instantiation_closes prfax
+def 6758:6766 <> Unnamed_thm
+R6763:6766 Corelib.Init.Logic <> True ind
+R6911:6916 PLF.Norm <> nf_dec prfax
+R6932:6933 PLF.Norm <> tm ind
+binder 6928:6928 <> t:105
+R6937:6938 Corelib.Init.Logic <> or ind
+R6977:6978 Corelib.Init.Logic <> ex ind
+R6980:6981 PLF.Norm <> tm ind
+R6993:6994 PLF.Norm <> tm ind
+binder 6988:6989 <> t':106
+R6999:7002 PLF.Norm <> step ind
+R7004:7004 PLF.NormTest <> t:105 var
+R7006:7007 PLF.NormTest <> t':106 var
+R6942:6962 PLF.Smallstep <> normal_form def
+R6964:6965 PLF.Norm <> tm ind
+R6967:6970 PLF.Norm <> step ind
+R6972:6972 PLF.NormTest <> t:105 var
+R6911:6916 PLF.Norm <> nf_dec prfax
+R6932:6933 PLF.Norm <> tm ind
+binder 6928:6928 <> t:107
+R6937:6938 Corelib.Init.Logic <> or ind
+R6977:6978 Corelib.Init.Logic <> ex ind
+R6980:6981 PLF.Norm <> tm ind
+R6993:6994 PLF.Norm <> tm ind
+binder 6988:6989 <> t':108
+R6999:7002 PLF.Norm <> step ind
+R7004:7004 PLF.NormTest <> t:107 var
+R7006:7007 PLF.NormTest <> t':108 var
+R6942:6962 PLF.Smallstep <> normal_form def
+R6964:6965 PLF.Norm <> tm ind
+R6967:6970 PLF.Norm <> step ind
+R6972:6972 PLF.NormTest <> t:107 var
+R7061:7066 PLF.Norm <> nf_dec prfax
+def 7069:7077 <> Unnamed_thm
+R7074:7077 Corelib.Init.Logic <> True ind
+R7228:7236 PLF.Norm <> norm_App2 prfax
+R7260:7261 PLF.Norm <> tm ind
+binder 7249:7250 <> v1:109
+binder 7252:7253 <> t2:110
+binder 7255:7256 <> t':111
+R7270:7284 PLF.Smallstep <> multi ind
+R7286:7287 PLF.Norm <> tm ind
+R7289:7292 PLF.Norm <> step ind
+R7295:7300 PLF.Norm <> tm_app constr
+R7302:7303 PLF.NormTest <> v1:109 var
+R7305:7306 PLF.NormTest <> t2:110 var
+R7309:7310 PLF.NormTest <> t':111 var
+R7321:7325 PLF.Norm <> value ind
+R7327:7328 PLF.NormTest <> v1:109 var
+R7337:7357 PLF.Smallstep <> normal_form def
+R7359:7360 PLF.Norm <> tm ind
+R7362:7365 PLF.Norm <> step ind
+R7367:7368 PLF.NormTest <> t':111 var
+R7374:7375 Corelib.Init.Logic <> ex ind
+R7377:7378 PLF.Norm <> tm ind
+R7394:7395 PLF.Norm <> tm ind
+binder 7388:7390 <> t2':112
+R7404:7406 Corelib.Init.Logic <> and ind
+R7449:7451 Corelib.Init.Logic <> and ind
+R7501:7515 PLF.Smallstep <> multi ind
+R7517:7518 PLF.Norm <> tm ind
+R7520:7523 PLF.Norm <> step ind
+R7526:7531 PLF.Norm <> tm_app constr
+R7533:7534 PLF.NormTest <> v1:109 var
+R7536:7538 PLF.NormTest <> t2':112 var
+R7541:7542 PLF.NormTest <> t':111 var
+R7455:7475 PLF.Smallstep <> normal_form def
+R7477:7478 PLF.Norm <> tm ind
+R7480:7483 PLF.Norm <> step ind
+R7485:7487 PLF.NormTest <> t2':112 var
+R7410:7424 PLF.Smallstep <> multi ind
+R7426:7427 PLF.Norm <> tm ind
+R7429:7432 PLF.Norm <> step ind
+R7434:7435 PLF.NormTest <> t2:110 var
+R7437:7439 PLF.NormTest <> t2':112 var
+R7228:7236 PLF.Norm <> norm_App2 prfax
+R7260:7261 PLF.Norm <> tm ind
+binder 7249:7250 <> v1:113
+binder 7252:7253 <> t2:114
+binder 7255:7256 <> t':115
+R7270:7284 PLF.Smallstep <> multi ind
+R7286:7287 PLF.Norm <> tm ind
+R7289:7292 PLF.Norm <> step ind
+R7295:7300 PLF.Norm <> tm_app constr
+R7302:7303 PLF.NormTest <> v1:113 var
+R7305:7306 PLF.NormTest <> t2:114 var
+R7309:7310 PLF.NormTest <> t':115 var
+R7321:7325 PLF.Norm <> value ind
+R7327:7328 PLF.NormTest <> v1:113 var
+R7337:7357 PLF.Smallstep <> normal_form def
+R7359:7360 PLF.Norm <> tm ind
+R7362:7365 PLF.Norm <> step ind
+R7367:7368 PLF.NormTest <> t':115 var
+R7374:7375 Corelib.Init.Logic <> ex ind
+R7377:7378 PLF.Norm <> tm ind
+R7394:7395 PLF.Norm <> tm ind
+binder 7388:7390 <> t2':116
+R7404:7406 Corelib.Init.Logic <> and ind
+R7449:7451 Corelib.Init.Logic <> and ind
+R7501:7515 PLF.Smallstep <> multi ind
+R7517:7518 PLF.Norm <> tm ind
+R7520:7523 PLF.Norm <> step ind
+R7526:7531 PLF.Norm <> tm_app constr
+R7533:7534 PLF.NormTest <> v1:113 var
+R7536:7538 PLF.NormTest <> t2':116 var
+R7541:7542 PLF.NormTest <> t':115 var
+R7455:7475 PLF.Smallstep <> normal_form def
+R7477:7478 PLF.Norm <> tm ind
+R7480:7483 PLF.Norm <> step ind
+R7485:7487 PLF.NormTest <> t2':116 var
+R7410:7424 PLF.Smallstep <> multi ind
+R7426:7427 PLF.Norm <> tm ind
+R7429:7432 PLF.Norm <> step ind
+R7434:7435 PLF.NormTest <> t2:114 var
+R7437:7439 PLF.NormTest <> t2':116 var
+R7597:7605 PLF.Norm <> norm_App2 prfax
+def 7608:7616 <> Unnamed_thm
+R7613:7616 Corelib.Init.Logic <> True ind
+R7796:7818 PLF.Norm <> syntactic_type_semantic prfax
+R7839:7845 PLF.Norm <> context def
+binder 7831:7835 <> Gamma:117
+R7853:7854 PLF.Norm <> tm ind
+binder 7849:7849 <> t:118
+R7862:7863 PLF.Norm <> ty ind
+binder 7858:7858 <> T:119
+R7871:7878 PLF.Norm <> has_type ind
+R7880:7884 PLF.NormTest <> Gamma:117 var
+R7886:7886 PLF.NormTest <> t:118 var
+R7888:7888 PLF.NormTest <> T:119 var
+R7893:7909 PLF.Norm <> has_semantic_type def
+R7911:7915 PLF.NormTest <> Gamma:117 var
+R7917:7917 PLF.NormTest <> t:118 var
+R7919:7919 PLF.NormTest <> T:119 var
+R7796:7818 PLF.Norm <> syntactic_type_semantic prfax
+R7839:7845 PLF.Norm <> context def
+binder 7831:7835 <> Gamma:120
+R7853:7854 PLF.Norm <> tm ind
+binder 7849:7849 <> t:121
+R7862:7863 PLF.Norm <> ty ind
+binder 7858:7858 <> T:122
+R7871:7878 PLF.Norm <> has_type ind
+R7880:7884 PLF.NormTest <> Gamma:120 var
+R7886:7886 PLF.NormTest <> t:121 var
+R7888:7888 PLF.NormTest <> T:122 var
+R7893:7909 PLF.Norm <> has_semantic_type def
+R7911:7915 PLF.NormTest <> Gamma:120 var
+R7917:7917 PLF.NormTest <> t:121 var
+R7919:7919 PLF.NormTest <> T:122 var
+R7971:7993 PLF.Norm <> syntactic_type_semantic prfax
+def 7996:8004 <> Unnamed_thm
+R8001:8004 Corelib.Init.Logic <> True ind
+R9013:9023 PLF.Norm <> value_halts prfax
+R9097:9118 PLF.Norm <> step_preserves_halting prfax
+R9243:9258 PLF.Norm <> step_preserves_N prfax
+R9327:9343 PLF.Norm <> step_preserves_N' prfax
+R9405:9414 PLF.Norm <> swap_subst prfax
+R9478:9489 PLF.Norm <> msubst_subst prfax
+R9551:9560 PLF.Norm <> msubst_app prfax
+R9632:9651 PLF.Norm <> instantiation_msubst prfax
+R9727:9750 PLF.Norm <> instantiation_env_closed prfax
+R9834:9865 PLF.Norm <> N_instantiation_preserves_typing prfax
+R9931:9944 PLF.Norm <> multistep_App2 prfax
+R10005:10013 PLF.Norm <> typable_N prfax
+R10129:10134 PLF.Norm <> Sv_val prfax
+R10206:10225 PLF.Norm <> instantiation_closes prfax
+R10283:10288 PLF.Norm <> nf_dec prfax
+R10349:10357 PLF.Norm <> norm_App2 prfax
+R10432:10454 PLF.Norm <> syntactic_type_semantic prfax

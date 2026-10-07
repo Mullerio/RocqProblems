@@ -1,0 +1,496 @@
+DIGEST 944a4049bb61a8b7beb6bbce6e852ba1
+FPLF.Maps
+R1526:1530 Stdlib.Arith.Arith <> <> lib
+R1560:1563 Stdlib.Bool.Bool <> <> lib
+R1593:1606 Stdlib.Strings.String <> <> lib
+R1636:1659 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R1689:1692 Stdlib.Lists.List <> <> lib
+R1702:1714 Stdlib.Lists.List ListNotations <> mod
+R2907:2912 Stdlib.Strings.String <> string ind
+binder 2903:2903 <> x:1
+R2930:2932 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2917:2920 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R2916:2916 PLF.Maps <> x:1 var
+R2921:2921 PLF.Maps <> x:1 var
+R2933:2936 Corelib.Init.Datatypes <> true constr
+R2876:2890 Stdlib.Strings.String <> eqb_refl thm
+R3047:3052 Stdlib.Strings.String <> string ind
+binder 3041:3041 <> n:2
+binder 3043:3043 <> m:3
+R3077:3081 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3070:3072 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3057:3060 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R3056:3056 PLF.Maps <> n:2 var
+R3061:3061 PLF.Maps <> m:3 var
+R3073:3076 Corelib.Init.Datatypes <> true constr
+R3083:3085 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3082:3082 PLF.Maps <> n:2 var
+R3086:3086 PLF.Maps <> m:3 var
+R3016:3028 Stdlib.Strings.String <> eqb_eq thm
+R3127:3132 Stdlib.Strings.String <> string ind
+binder 3121:3121 <> n:4
+binder 3123:3123 <> m:5
+R3158:3162 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3150:3152 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3137:3140 Stdlib.Strings.String <> ::string_scope:x_'=?'_x not
+R3136:3136 PLF.Maps <> n:4 var
+R3141:3141 PLF.Maps <> m:5 var
+R3153:3157 Corelib.Init.Datatypes <> false constr
+R3164:3167 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3163:3163 PLF.Maps <> n:4 var
+R3168:3168 PLF.Maps <> m:5 var
+R3095:3108 Stdlib.Strings.String <> eqb_neq thm
+R3210:3215 Stdlib.Strings.String <> string ind
+binder 3204:3204 <> x:6
+binder 3206:3206 <> y:7
+R3218:3224 Corelib.Init.Datatypes <> reflect ind
+R3235:3244 Stdlib.Strings.String <> eqb def
+R3246:3246 PLF.Maps <> x:6 var
+R3248:3248 PLF.Maps <> y:7 var
+R3228:3230 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3227:3227 PLF.Maps <> x:6 var
+R3231:3231 PLF.Maps <> y:7 var
+R3177:3191 Stdlib.Strings.String <> eqb_spec thm
+def 4163:4171 <> total_map
+binder 4174:4174 <> A:8
+R4193:4196 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4187:4192 Stdlib.Strings.String <> string ind
+R4197:4197 PLF.Maps <> A:8 var
+def 4510:4516 <> t_empty
+binder 4519:4519 <> A:9
+R4534:4534 PLF.Maps <> A:9 var
+binder 4530:4530 <> v:10
+R4539:4547 PLF.Maps <> total_map def
+R4549:4549 PLF.Maps <> A:9 var
+R4566:4566 PLF.Maps <> v:10 var
+def 4903:4910 <> t_update
+binder 4913:4913 <> A:11
+R4928:4936 PLF.Maps <> total_map def
+R4938:4938 PLF.Maps <> A:11 var
+binder 4924:4924 <> m:12
+R4966:4971 Stdlib.Strings.String <> string ind
+binder 4962:4962 <> x:13
+R4979:4979 PLF.Maps <> A:11 var
+binder 4975:4975 <> v:14
+binder 4991:4992 <> x':15
+R5000:5009 Stdlib.Strings.String <> eqb def
+R5011:5011 PLF.Maps <> x:13 var
+R5013:5014 PLF.Maps <> x':15 var
+R5028:5028 PLF.Maps <> m:12 var
+R5030:5031 PLF.Maps <> x':15 var
+R5021:5021 PLF.Maps <> v:14 var
+def 5413:5422 <> examplemap
+R5429:5436 PLF.Maps <> t_update def
+R5493:5496 Corelib.Init.Datatypes <> true constr
+R5439:5446 PLF.Maps <> t_update def
+R5470:5473 Corelib.Init.Datatypes <> true constr
+R5449:5455 PLF.Maps <> t_empty def
+R5457:5461 Corelib.Init.Datatypes <> false constr
+R5712:5718 PLF.Maps <> t_empty def
+not 5693:5693 <> :::'__'_'!->'_x
+def 5771:5783 <> example_empty
+R5790:5794 Corelib.Init.Datatypes <> false constr
+R5929:5936 PLF.Maps <> t_update def
+not 5907:5907 <> :::x_'!->'_x_';'_x
+def 6111:6121 <> examplemap'
+R6135:6139 PLF.Maps <> :::x_'!->'_x_';'_x not
+R6144:6149 PLF.Maps <> :::x_'!->'_x_';'_x not
+R6155:6159 PLF.Maps <> :::x_'!->'_x_';'_x not
+R6164:6169 PLF.Maps <> :::x_'!->'_x_';'_x not
+R6170:6179 PLF.Maps <> :::'__'_'!->'_x not
+R6180:6184 Corelib.Init.Datatypes <> false constr
+R6160:6163 Corelib.Init.Datatypes <> true constr
+R6140:6143 Corelib.Init.Datatypes <> true constr
+def 6387:6401 <> update_example1
+R6422:6424 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6405:6415 PLF.Maps <> examplemap' def
+R6425:6429 Corelib.Init.Datatypes <> false constr
+def 6466:6480 <> update_example2
+R6501:6503 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6484:6494 PLF.Maps <> examplemap' def
+R6504:6507 Corelib.Init.Datatypes <> true constr
+def 6544:6558 <> update_example3
+R6580:6582 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6562:6572 PLF.Maps <> examplemap' def
+R6583:6587 Corelib.Init.Datatypes <> false constr
+def 6624:6638 <> update_example4
+R6659:6661 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6642:6652 PLF.Maps <> examplemap' def
+R6662:6665 Corelib.Init.Datatypes <> true constr
+prf 7190:7202 <> t_apply_empty
+binder 7214:7214 <> A:16
+R7229:7234 Stdlib.Strings.String <> string ind
+binder 7225:7225 <> x:17
+R7242:7242 PLF.Maps <> A:16 var
+binder 7238:7238 <> v:18
+R7260:7262 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7248:7255 PLF.Maps <> :::'__'_'!->'_x not
+R7257:7259 PLF.Maps <> :::'__'_'!->'_x not
+R7256:7256 PLF.Maps <> v:18 var
+R7259:7259 PLF.Maps <> x:17 var
+R7263:7263 PLF.Maps <> v:18 var
+prf 7540:7550 <> t_update_eq
+binder 7562:7562 <> A:19
+R7577:7585 PLF.Maps <> total_map def
+R7587:7587 PLF.Maps <> A:19 var
+binder 7573:7573 <> m:20
+binder 7590:7590 <> x:21
+binder 7592:7592 <> v:22
+R7612:7614 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7597:7597 PLF.Maps <> :::x_'!->'_x_';'_x not
+R7599:7603 PLF.Maps <> :::x_'!->'_x_';'_x not
+R7605:7607 PLF.Maps <> :::x_'!->'_x_';'_x not
+R7609:7611 PLF.Maps <> :::x_'!->'_x_';'_x not
+R7608:7608 PLF.Maps <> m:20 var
+R7598:7598 PLF.Maps <> x:21 var
+R7604:7604 PLF.Maps <> v:22 var
+R7611:7611 PLF.Maps <> x:21 var
+R7615:7615 PLF.Maps <> v:22 var
+prf 7922:7933 <> t_update_neq
+binder 7945:7945 <> A:23
+R7960:7968 PLF.Maps <> total_map def
+R7970:7970 PLF.Maps <> A:23 var
+binder 7956:7956 <> m:24
+binder 7973:7974 <> x1:25
+binder 7976:7977 <> x2:26
+binder 7979:7979 <> v:27
+R7992:7997 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7986:7989 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7984:7985 PLF.Maps <> x1:25 var
+R7990:7991 PLF.Maps <> x2:26 var
+R8015:8017 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7998:7998 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8001:8005 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8007:8009 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8011:8014 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8010:8010 PLF.Maps <> m:24 var
+R7999:8000 PLF.Maps <> x1:25 var
+R8006:8006 PLF.Maps <> v:27 var
+R8013:8014 PLF.Maps <> x2:26 var
+R8018:8018 PLF.Maps <> m:24 var
+R8020:8021 PLF.Maps <> x2:26 var
+prf 8449:8463 <> t_update_shadow
+binder 8475:8475 <> A:28
+R8490:8498 PLF.Maps <> total_map def
+R8500:8500 PLF.Maps <> A:28 var
+binder 8486:8486 <> m:29
+binder 8503:8503 <> x:30
+binder 8505:8506 <> v1:31
+binder 8508:8509 <> v2:32
+R8514:8514 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8538:8542 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8555:8555 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8516:8520 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8523:8525 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8527:8531 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8534:8536 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8537:8537 PLF.Maps <> m:29 var
+R8526:8526 PLF.Maps <> x:30 var
+R8532:8533 PLF.Maps <> v1:31 var
+R8515:8515 PLF.Maps <> x:30 var
+R8521:8522 PLF.Maps <> v2:32 var
+R8544:8548 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8551:8553 PLF.Maps <> :::x_'!->'_x_';'_x not
+R8554:8554 PLF.Maps <> m:29 var
+R8543:8543 PLF.Maps <> x:30 var
+R8549:8550 PLF.Maps <> v2:32 var
+prf 9182:9194 <> t_update_same
+binder 9206:9206 <> A:33
+R9221:9229 PLF.Maps <> total_map def
+R9231:9231 PLF.Maps <> A:33 var
+binder 9217:9217 <> m:34
+binder 9234:9234 <> x:35
+R9239:9239 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9253:9256 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9241:9245 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9249:9251 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9252:9252 PLF.Maps <> m:34 var
+R9240:9240 PLF.Maps <> x:35 var
+R9246:9246 PLF.Maps <> m:34 var
+R9248:9248 PLF.Maps <> x:35 var
+R9257:9257 PLF.Maps <> m:34 var
+prf 9593:9608 <> t_update_permute
+binder 9620:9620 <> A:36
+R9635:9643 PLF.Maps <> total_map def
+R9645:9645 PLF.Maps <> A:36 var
+binder 9631:9631 <> m:37
+binder 9682:9683 <> v1:38
+binder 9685:9686 <> v2:39
+binder 9688:9689 <> x1:40
+binder 9691:9692 <> x2:41
+R9705:9710 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9699:9702 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9697:9698 PLF.Maps <> x2:41 var
+R9703:9704 PLF.Maps <> x1:40 var
+R9711:9711 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9737:9745 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9771:9771 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9714:9718 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9721:9723 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9726:9730 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9733:9735 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9736:9736 PLF.Maps <> m:37 var
+R9724:9725 PLF.Maps <> x2:41 var
+R9731:9732 PLF.Maps <> v2:39 var
+R9712:9713 PLF.Maps <> x1:40 var
+R9719:9720 PLF.Maps <> v1:38 var
+R9748:9752 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9755:9757 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9760:9764 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9767:9769 PLF.Maps <> :::x_'!->'_x_';'_x not
+R9770:9770 PLF.Maps <> m:37 var
+R9758:9759 PLF.Maps <> x1:40 var
+R9765:9766 PLF.Maps <> v1:38 var
+R9746:9747 PLF.Maps <> x2:41 var
+R9753:9754 PLF.Maps <> v2:39 var
+def 10124:10134 <> partial_map
+binder 10137:10137 <> A:42
+R10150:10158 PLF.Maps <> total_map def
+R10161:10166 Corelib.Init.Datatypes <> option ind
+R10168:10168 PLF.Maps <> A:42 var
+def 10184:10188 <> empty
+binder 10191:10191 <> A:43
+R10203:10213 PLF.Maps <> partial_map def
+R10215:10215 PLF.Maps <> A:43 var
+R10222:10228 PLF.Maps <> t_empty def
+R10230:10233 Corelib.Init.Datatypes <> None constr
+def 10248:10253 <> update
+binder 10256:10256 <> A:44
+R10271:10281 PLF.Maps <> partial_map def
+R10283:10283 PLF.Maps <> A:44 var
+binder 10267:10267 <> m:45
+R10302:10307 Stdlib.Strings.String <> string ind
+binder 10298:10298 <> x:46
+R10315:10315 PLF.Maps <> A:44 var
+binder 10311:10311 <> v:47
+R10325:10329 PLF.Maps <> :::x_'!->'_x_';'_x not
+R10336:10338 PLF.Maps <> :::x_'!->'_x_';'_x not
+R10339:10339 PLF.Maps <> m:45 var
+R10324:10324 PLF.Maps <> x:46 var
+R10330:10333 Corelib.Init.Datatypes <> Some constr
+R10335:10335 PLF.Maps <> v:47 var
+R10431:10436 PLF.Maps <> update def
+not 10409:10409 <> :::x_'|->'_x_';'_x
+R10590:10595 PLF.Maps <> update def
+R10597:10601 PLF.Maps <> empty def
+not 10574:10574 <> :::x_'|->'_x
+def 10662:10672 <> examplepmap
+R10688:10692 PLF.Maps <> :::x_'|->'_x_';'_x not
+R10697:10699 PLF.Maps <> :::x_'|->'_x_';'_x not
+R10708:10712 PLF.Maps <> :::x_'|->'_x not
+R10713:10717 Corelib.Init.Datatypes <> false constr
+R10693:10696 Corelib.Init.Datatypes <> true constr
+prf 10829:10839 <> apply_empty
+binder 10851:10851 <> A:48
+R10866:10871 Stdlib.Strings.String <> string ind
+binder 10862:10862 <> x:49
+R10887:10889 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10878:10882 PLF.Maps <> empty def
+R10884:10884 PLF.Maps <> A:48 var
+R10886:10886 PLF.Maps <> x:49 var
+R10890:10893 Corelib.Init.Datatypes <> None constr
+R10920:10924 PLF.Maps <> empty def
+R10935:10947 PLF.Maps <> t_apply_empty prfax
+R10935:10947 PLF.Maps <> t_apply_empty prfax
+R10935:10947 PLF.Maps <> t_apply_empty prfax
+prf 10977:10985 <> update_eq
+binder 10997:10997 <> A:50
+R11012:11022 PLF.Maps <> partial_map def
+R11024:11024 PLF.Maps <> A:50 var
+binder 11008:11008 <> m:51
+binder 11027:11027 <> x:52
+binder 11029:11029 <> v:53
+R11049:11051 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11034:11034 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11036:11040 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11042:11044 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11046:11048 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11045:11045 PLF.Maps <> m:51 var
+R11035:11035 PLF.Maps <> x:52 var
+R11041:11041 PLF.Maps <> v:53 var
+R11048:11048 PLF.Maps <> x:52 var
+R11052:11055 Corelib.Init.Datatypes <> Some constr
+R11057:11057 PLF.Maps <> v:53 var
+R11084:11089 PLF.Maps <> update def
+R11100:11110 PLF.Maps <> t_update_eq prfax
+R11100:11110 PLF.Maps <> t_update_eq prfax
+R11100:11110 PLF.Maps <> t_update_eq prfax
+prf 11354:11363 <> update_neq
+binder 11375:11375 <> A:54
+R11390:11400 PLF.Maps <> partial_map def
+R11402:11402 PLF.Maps <> A:54 var
+binder 11386:11386 <> m:55
+binder 11405:11406 <> x1:56
+binder 11408:11409 <> x2:57
+binder 11411:11411 <> v:58
+R11424:11429 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11418:11421 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R11416:11417 PLF.Maps <> x2:57 var
+R11422:11423 PLF.Maps <> x1:56 var
+R11447:11449 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11430:11430 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11433:11437 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11439:11441 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11443:11446 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11442:11442 PLF.Maps <> m:55 var
+R11431:11432 PLF.Maps <> x2:57 var
+R11438:11438 PLF.Maps <> v:58 var
+R11445:11446 PLF.Maps <> x1:56 var
+R11450:11450 PLF.Maps <> m:55 var
+R11452:11453 PLF.Maps <> x1:56 var
+R11496:11501 PLF.Maps <> update def
+R11512:11523 PLF.Maps <> t_update_neq prfax
+R11512:11523 PLF.Maps <> t_update_neq prfax
+R11512:11523 PLF.Maps <> t_update_neq prfax
+R11512:11523 PLF.Maps <> t_update_neq prfax
+prf 11568:11580 <> update_shadow
+binder 11592:11592 <> A:59
+R11607:11617 PLF.Maps <> partial_map def
+R11619:11619 PLF.Maps <> A:59 var
+binder 11603:11603 <> m:60
+binder 11622:11622 <> x:61
+binder 11624:11625 <> v1:62
+binder 11627:11628 <> v2:63
+R11633:11633 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11657:11661 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11674:11674 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11635:11639 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11642:11644 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11646:11650 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11653:11655 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11656:11656 PLF.Maps <> m:60 var
+R11645:11645 PLF.Maps <> x:61 var
+R11651:11652 PLF.Maps <> v1:62 var
+R11634:11634 PLF.Maps <> x:61 var
+R11640:11641 PLF.Maps <> v2:63 var
+R11663:11667 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11670:11672 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11673:11673 PLF.Maps <> m:60 var
+R11662:11662 PLF.Maps <> x:61 var
+R11668:11669 PLF.Maps <> v2:63 var
+R11713:11718 PLF.Maps <> update def
+R11729:11743 PLF.Maps <> t_update_shadow prfax
+R11729:11743 PLF.Maps <> t_update_shadow prfax
+R11729:11743 PLF.Maps <> t_update_shadow prfax
+prf 11775:11785 <> update_same
+binder 11797:11797 <> A:64
+R11812:11822 PLF.Maps <> partial_map def
+R11824:11824 PLF.Maps <> A:64 var
+binder 11808:11808 <> m:65
+binder 11827:11827 <> x:66
+binder 11829:11829 <> v:67
+R11846:11851 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11837:11839 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11834:11834 PLF.Maps <> m:65 var
+R11836:11836 PLF.Maps <> x:66 var
+R11840:11843 Corelib.Init.Datatypes <> Some constr
+R11845:11845 PLF.Maps <> v:67 var
+R11852:11852 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11864:11867 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11854:11858 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11860:11862 PLF.Maps <> :::x_'|->'_x_';'_x not
+R11863:11863 PLF.Maps <> m:65 var
+R11853:11853 PLF.Maps <> x:66 var
+R11859:11859 PLF.Maps <> v:67 var
+R11868:11868 PLF.Maps <> m:65 var
+R11905:11910 PLF.Maps <> update def
+R11935:11947 PLF.Maps <> t_update_same prfax
+R11935:11947 PLF.Maps <> t_update_same prfax
+prf 11964:11977 <> update_permute
+binder 11989:11989 <> A:68
+R12004:12014 PLF.Maps <> partial_map def
+R12016:12016 PLF.Maps <> A:68 var
+binder 12000:12000 <> m:69
+binder 12051:12052 <> x1:70
+binder 12054:12055 <> x2:71
+binder 12057:12058 <> v1:72
+binder 12060:12061 <> v2:73
+R12074:12079 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12068:12071 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R12066:12067 PLF.Maps <> x2:71 var
+R12072:12073 PLF.Maps <> x1:70 var
+R12080:12080 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12106:12110 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12136:12136 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12083:12087 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12090:12092 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12095:12099 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12102:12104 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12105:12105 PLF.Maps <> m:69 var
+R12093:12094 PLF.Maps <> x2:71 var
+R12100:12101 PLF.Maps <> v2:73 var
+R12081:12082 PLF.Maps <> x1:70 var
+R12088:12089 PLF.Maps <> v1:72 var
+R12113:12117 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12120:12122 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12125:12129 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12132:12134 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12135:12135 PLF.Maps <> m:69 var
+R12123:12124 PLF.Maps <> x1:70 var
+R12130:12131 PLF.Maps <> v1:72 var
+R12111:12112 PLF.Maps <> x2:71 var
+R12118:12119 PLF.Maps <> v2:73 var
+R12179:12184 PLF.Maps <> update def
+R12195:12210 PLF.Maps <> t_update_permute prfax
+R12195:12210 PLF.Maps <> t_update_permute prfax
+def 12405:12414 <> includedin
+binder 12417:12417 <> A:74
+R12435:12445 PLF.Maps <> partial_map def
+R12447:12447 PLF.Maps <> A:74 var
+binder 12428:12428 <> m:75
+binder 12430:12431 <> m':76
+binder 12462:12462 <> x:77
+binder 12464:12464 <> v:78
+R12479:12482 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12470:12472 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12467:12467 PLF.Maps <> m:75 var
+R12469:12469 PLF.Maps <> x:77 var
+R12473:12476 Corelib.Init.Datatypes <> Some constr
+R12478:12478 PLF.Maps <> v:78 var
+R12487:12489 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12483:12484 PLF.Maps <> m':76 var
+R12486:12486 PLF.Maps <> x:77 var
+R12490:12493 Corelib.Init.Datatypes <> Some constr
+R12495:12495 PLF.Maps <> v:78 var
+prf 12580:12596 <> includedin_update
+binder 12608:12608 <> A:79
+R12626:12636 PLF.Maps <> partial_map def
+R12638:12638 PLF.Maps <> A:79 var
+binder 12619:12619 <> m:80
+binder 12621:12622 <> m':81
+R12679:12684 Stdlib.Strings.String <> string ind
+binder 12675:12675 <> x:82
+R12693:12693 PLF.Maps <> A:79 var
+binder 12688:12689 <> vx:83
+R12714:12719 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12699:12708 PLF.Maps <> includedin def
+R12712:12713 PLF.Maps <> m':81 var
+R12710:12710 PLF.Maps <> m:80 var
+R12720:12729 PLF.Maps <> includedin def
+R12748:12752 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12755:12757 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12758:12759 PLF.Maps <> m':81 var
+R12747:12747 PLF.Maps <> x:82 var
+R12753:12754 PLF.Maps <> vx:83 var
+R12733:12737 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12740:12742 PLF.Maps <> :::x_'|->'_x_';'_x not
+R12743:12743 PLF.Maps <> m:80 var
+R12732:12732 PLF.Maps <> x:82 var
+R12738:12739 PLF.Maps <> vx:83 var
+R12779:12788 PLF.Maps <> includedin def
+R12842:12849 Stdlib.Strings.String <> eqb_spec thm
+R12842:12849 Stdlib.Strings.String <> eqb_spec thm
+R12901:12909 PLF.Maps <> update_eq thm
+R12901:12909 PLF.Maps <> update_eq thm
+R12901:12909 PLF.Maps <> update_eq thm
+R12920:12928 PLF.Maps <> update_eq thm
+R12920:12928 PLF.Maps <> update_eq thm
+R12920:12928 PLF.Maps <> update_eq thm
+R12963:12972 PLF.Maps <> update_neq thm
+R12963:12972 PLF.Maps <> update_neq thm
+R12963:12972 PLF.Maps <> update_neq thm
+R12963:12972 PLF.Maps <> update_neq thm
+R12989:12998 PLF.Maps <> update_neq thm
+R12989:12998 PLF.Maps <> update_neq thm
+R12989:12998 PLF.Maps <> update_neq thm
+R12989:12998 PLF.Maps <> update_neq thm

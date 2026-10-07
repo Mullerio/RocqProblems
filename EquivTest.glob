@@ -1,0 +1,383 @@
+DIGEST 79383ed0a0075d577739011dd6b01636
+FPLF.EquivTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:109 PLF.Equiv <> <> lib
+ax 123:129 <> MISSING
+mod 146:150 <> Check
+R216:222 PLF.EquivTest <> MISSING defax
+R216:222 PLF.EquivTest <> MISSING defax
+R436:439 Corelib.Init.Datatypes <> Some constr
+R436:439 Corelib.Init.Datatypes <> Some constr
+R619:622 Corelib.Init.Datatypes <> None constr
+R619:622 Corelib.Init.Datatypes <> None constr
+R704:708 PLF.EquivTest Check <> mod
+R736:740 PLF.Equiv <> <> lib
+R750:754 PLF.EquivTest Check <> mod
+def 758:766 <> Unnamed_thm
+R763:766 Corelib.Init.Logic <> True ind
+R908:917 PLF.Equiv <> skip_right prfax
+R932:934 PLF.Imp <> com ind
+binder 928:928 <> c:3
+R937:942 PLF.Equiv <> cequiv def
+R945:948 PLF.Imp <> CSeq constr
+R950:950 PLF.EquivTest <> c:3 var
+R952:956 PLF.Imp <> CSkip constr
+R959:959 PLF.EquivTest <> c:3 var
+R908:917 PLF.Equiv <> skip_right prfax
+R932:934 PLF.Imp <> com ind
+binder 928:928 <> c:4
+R937:942 PLF.Equiv <> cequiv def
+R945:948 PLF.Imp <> CSeq constr
+R950:950 PLF.EquivTest <> c:4 var
+R952:956 PLF.Imp <> CSkip constr
+R959:959 PLF.EquivTest <> c:4 var
+R1011:1020 PLF.Equiv <> skip_right prfax
+def 1023:1031 <> Unnamed_thm
+R1028:1031 Corelib.Init.Logic <> True ind
+R1180:1187 PLF.Equiv <> if_false prfax
+R1204:1207 PLF.Imp <> bexp ind
+binder 1200:1200 <> b:5
+R1219:1221 PLF.Imp <> com ind
+binder 1211:1212 <> c1:6
+binder 1214:1215 <> c2:7
+R1229:1234 PLF.Equiv <> bequiv def
+R1236:1236 PLF.EquivTest <> b:5 var
+R1238:1243 PLF.Imp <> BFalse constr
+R1248:1253 PLF.Equiv <> cequiv def
+R1256:1258 PLF.Imp <> CIf constr
+R1260:1260 PLF.EquivTest <> b:5 var
+R1262:1263 PLF.EquivTest <> c1:6 var
+R1265:1266 PLF.EquivTest <> c2:7 var
+R1269:1270 PLF.EquivTest <> c2:7 var
+R1180:1187 PLF.Equiv <> if_false prfax
+R1204:1207 PLF.Imp <> bexp ind
+binder 1200:1200 <> b:8
+R1219:1221 PLF.Imp <> com ind
+binder 1211:1212 <> c1:9
+binder 1214:1215 <> c2:10
+R1229:1234 PLF.Equiv <> bequiv def
+R1236:1236 PLF.EquivTest <> b:8 var
+R1238:1243 PLF.Imp <> BFalse constr
+R1248:1253 PLF.Equiv <> cequiv def
+R1256:1258 PLF.Imp <> CIf constr
+R1260:1260 PLF.EquivTest <> b:8 var
+R1262:1263 PLF.EquivTest <> c1:9 var
+R1265:1266 PLF.EquivTest <> c2:10 var
+R1269:1270 PLF.EquivTest <> c2:10 var
+R1322:1329 PLF.Equiv <> if_false prfax
+def 1332:1340 <> Unnamed_thm
+R1337:1340 Corelib.Init.Logic <> True ind
+R1505:1520 PLF.Equiv <> swap_if_branches prfax
+R1537:1540 PLF.Imp <> bexp ind
+binder 1533:1533 <> b:11
+R1552:1554 PLF.Imp <> com ind
+binder 1544:1545 <> c1:12
+binder 1547:1548 <> c2:13
+R1558:1563 PLF.Equiv <> cequiv def
+R1566:1568 PLF.Imp <> CIf constr
+R1570:1570 PLF.EquivTest <> b:11 var
+R1572:1573 PLF.EquivTest <> c1:12 var
+R1575:1576 PLF.EquivTest <> c2:13 var
+R1580:1582 PLF.Imp <> CIf constr
+R1585:1588 PLF.Imp <> BNot constr
+R1590:1590 PLF.EquivTest <> b:11 var
+R1593:1594 PLF.EquivTest <> c2:13 var
+R1596:1597 PLF.EquivTest <> c1:12 var
+R1505:1520 PLF.Equiv <> swap_if_branches prfax
+R1537:1540 PLF.Imp <> bexp ind
+binder 1533:1533 <> b:14
+R1552:1554 PLF.Imp <> com ind
+binder 1544:1545 <> c1:15
+binder 1547:1548 <> c2:16
+R1558:1563 PLF.Equiv <> cequiv def
+R1566:1568 PLF.Imp <> CIf constr
+R1570:1570 PLF.EquivTest <> b:14 var
+R1572:1573 PLF.EquivTest <> c1:15 var
+R1575:1576 PLF.EquivTest <> c2:16 var
+R1580:1582 PLF.Imp <> CIf constr
+R1585:1588 PLF.Imp <> BNot constr
+R1590:1590 PLF.EquivTest <> b:14 var
+R1593:1594 PLF.EquivTest <> c2:16 var
+R1596:1597 PLF.EquivTest <> c1:15 var
+R1650:1665 PLF.Equiv <> swap_if_branches prfax
+def 1668:1676 <> Unnamed_thm
+R1673:1676 Corelib.Init.Logic <> True ind
+R1829:1838 PLF.Equiv <> while_true prfax
+R1855:1858 PLF.Imp <> bexp ind
+binder 1851:1851 <> b:17
+R1866:1868 PLF.Imp <> com ind
+binder 1862:1862 <> c:18
+R1876:1881 PLF.Equiv <> bequiv def
+R1883:1883 PLF.EquivTest <> b:17 var
+R1885:1889 PLF.Imp <> BTrue constr
+R1894:1899 PLF.Equiv <> cequiv def
+R1902:1907 PLF.Imp <> CWhile constr
+R1909:1909 PLF.EquivTest <> b:17 var
+R1911:1911 PLF.EquivTest <> c:18 var
+R1915:1920 PLF.Imp <> CWhile constr
+R1922:1926 PLF.Imp <> BTrue constr
+R1928:1932 PLF.Imp <> CSkip constr
+R1829:1838 PLF.Equiv <> while_true prfax
+R1855:1858 PLF.Imp <> bexp ind
+binder 1851:1851 <> b:19
+R1866:1868 PLF.Imp <> com ind
+binder 1862:1862 <> c:20
+R1876:1881 PLF.Equiv <> bequiv def
+R1883:1883 PLF.EquivTest <> b:19 var
+R1885:1889 PLF.Imp <> BTrue constr
+R1894:1899 PLF.Equiv <> cequiv def
+R1902:1907 PLF.Imp <> CWhile constr
+R1909:1909 PLF.EquivTest <> b:19 var
+R1911:1911 PLF.EquivTest <> c:20 var
+R1915:1920 PLF.Imp <> CWhile constr
+R1922:1926 PLF.Imp <> BTrue constr
+R1928:1932 PLF.Imp <> CSkip constr
+R1985:1994 PLF.Equiv <> while_true prfax
+def 1997:2005 <> Unnamed_thm
+R2002:2005 Corelib.Init.Logic <> True ind
+R2164:2176 PLF.Equiv <> assign_aequiv prfax
+R2193:2205 Stdlib.Strings.String <> string ind
+binder 2189:2189 <> X:21
+R2213:2216 PLF.Imp <> aexp ind
+binder 2209:2209 <> a:22
+R2224:2229 PLF.Equiv <> aequiv def
+R2232:2234 PLF.Imp <> AId constr
+R2236:2236 PLF.EquivTest <> X:21 var
+R2239:2239 PLF.EquivTest <> a:22 var
+R2244:2249 PLF.Equiv <> cequiv def
+R2251:2255 PLF.Imp <> CSkip constr
+R2258:2262 PLF.Imp <> CAsgn constr
+R2264:2264 PLF.EquivTest <> X:21 var
+R2266:2266 PLF.EquivTest <> a:22 var
+R2164:2176 PLF.Equiv <> assign_aequiv prfax
+R2193:2205 Stdlib.Strings.String <> string ind
+binder 2189:2189 <> X:23
+R2213:2216 PLF.Imp <> aexp ind
+binder 2209:2209 <> a:24
+R2224:2229 PLF.Equiv <> aequiv def
+R2232:2234 PLF.Imp <> AId constr
+R2236:2236 PLF.EquivTest <> X:23 var
+R2239:2239 PLF.EquivTest <> a:24 var
+R2244:2249 PLF.Equiv <> cequiv def
+R2251:2255 PLF.Imp <> CSkip constr
+R2258:2262 PLF.Imp <> CAsgn constr
+R2264:2264 PLF.EquivTest <> X:23 var
+R2266:2266 PLF.EquivTest <> a:24 var
+R2319:2331 PLF.Equiv <> assign_aequiv prfax
+def 2334:2342 <> Unnamed_thm
+R2339:2342 Corelib.Init.Logic <> True ind
+R2503:2516 PLF.Equiv <> CIf_congruence prfax
+R2536:2539 PLF.Imp <> bexp ind
+binder 2529:2529 <> b:25
+binder 2531:2532 <> b':26
+R2559:2561 PLF.Imp <> com ind
+binder 2543:2544 <> c1:27
+binder 2546:2548 <> c1':28
+binder 2550:2551 <> c2:29
+binder 2553:2555 <> c2':30
+R2569:2574 PLF.Equiv <> bequiv def
+R2576:2576 PLF.EquivTest <> b:25 var
+R2578:2579 PLF.EquivTest <> b':26 var
+R2590:2595 PLF.Equiv <> cequiv def
+R2597:2598 PLF.EquivTest <> c1:27 var
+R2600:2602 PLF.EquivTest <> c1':28 var
+R2610:2615 PLF.Equiv <> cequiv def
+R2617:2618 PLF.EquivTest <> c2:29 var
+R2620:2622 PLF.EquivTest <> c2':30 var
+R2627:2632 PLF.Equiv <> cequiv def
+R2635:2637 PLF.Imp <> CIf constr
+R2639:2639 PLF.EquivTest <> b:25 var
+R2641:2642 PLF.EquivTest <> c1:27 var
+R2644:2645 PLF.EquivTest <> c2:29 var
+R2649:2651 PLF.Imp <> CIf constr
+R2653:2654 PLF.EquivTest <> b':26 var
+R2656:2658 PLF.EquivTest <> c1':28 var
+R2660:2662 PLF.EquivTest <> c2':30 var
+R2503:2516 PLF.Equiv <> CIf_congruence prfax
+R2536:2539 PLF.Imp <> bexp ind
+binder 2529:2529 <> b:31
+binder 2531:2532 <> b':32
+R2559:2561 PLF.Imp <> com ind
+binder 2543:2544 <> c1:33
+binder 2546:2548 <> c1':34
+binder 2550:2551 <> c2:35
+binder 2553:2555 <> c2':36
+R2569:2574 PLF.Equiv <> bequiv def
+R2576:2576 PLF.EquivTest <> b:31 var
+R2578:2579 PLF.EquivTest <> b':32 var
+R2590:2595 PLF.Equiv <> cequiv def
+R2597:2598 PLF.EquivTest <> c1:33 var
+R2600:2602 PLF.EquivTest <> c1':34 var
+R2610:2615 PLF.Equiv <> cequiv def
+R2617:2618 PLF.EquivTest <> c2:35 var
+R2620:2622 PLF.EquivTest <> c2':36 var
+R2627:2632 PLF.Equiv <> cequiv def
+R2635:2637 PLF.Imp <> CIf constr
+R2639:2639 PLF.EquivTest <> b:31 var
+R2641:2642 PLF.EquivTest <> c1:33 var
+R2644:2645 PLF.EquivTest <> c2:35 var
+R2649:2651 PLF.Imp <> CIf constr
+R2653:2654 PLF.EquivTest <> b':32 var
+R2656:2658 PLF.EquivTest <> c1':34 var
+R2660:2662 PLF.EquivTest <> c2':36 var
+R2715:2728 PLF.Equiv <> CIf_congruence prfax
+def 2731:2739 <> Unnamed_thm
+R2736:2739 Corelib.Init.Logic <> True ind
+R2932:2957 PLF.Equiv <> manual_grade_for_not_congr def
+R2932:2957 PLF.Equiv <> manual_grade_for_not_congr def
+R3138:3161 PLF.Equiv <> fold_constants_com_sound prfax
+R3165:3176 PLF.Equiv <> ctrans_sound def
+R3178:3195 PLF.Equiv <> fold_constants_com def
+R3138:3161 PLF.Equiv <> fold_constants_com_sound prfax
+R3165:3176 PLF.Equiv <> ctrans_sound def
+R3178:3195 PLF.Equiv <> fold_constants_com def
+R3247:3270 PLF.Equiv <> fold_constants_com_sound prfax
+def 3273:3281 <> Unnamed_thm
+R3278:3281 Corelib.Init.Logic <> True ind
+R3446:3461 PLF.Equiv <> inequiv_exercise prfax
+R3465:3467 Corelib.Init.Logic <> not def
+R3470:3475 PLF.Equiv <> cequiv def
+R3478:3483 PLF.Imp <> CWhile constr
+R3485:3489 PLF.Imp <> BTrue constr
+R3491:3495 PLF.Imp <> CSkip constr
+R3498:3502 PLF.Imp <> CSkip constr
+R3446:3461 PLF.Equiv <> inequiv_exercise prfax
+R3465:3467 Corelib.Init.Logic <> not def
+R3470:3475 PLF.Equiv <> cequiv def
+R3478:3483 PLF.Imp <> CWhile constr
+R3485:3489 PLF.Imp <> BTrue constr
+R3491:3495 PLF.Imp <> CSkip constr
+R3498:3502 PLF.Imp <> CSkip constr
+R3555:3570 PLF.Equiv <> inequiv_exercise prfax
+def 3573:3581 <> Unnamed_thm
+R3578:3581 Corelib.Init.Logic <> True ind
+R3773:3814 PLF.Equiv Himp manual_grade_for_Check_rule_for_HAVOC def
+R3773:3814 PLF.Equiv Himp manual_grade_for_Check_rule_for_HAVOC def
+R3976:3994 PLF.Equiv Himp pXY_cequiv_pYX prfax
+R3999:4000 Corelib.Init.Logic <> or ind
+R4035:4037 Corelib.Init.Logic <> not def
+R4040:4050 PLF.Equiv Himp cequiv def
+R4052:4059 PLF.Equiv Himp pXY def
+R4061:4068 PLF.Equiv Himp pYX def
+R4003:4013 PLF.Equiv Himp cequiv def
+R4015:4022 PLF.Equiv Himp pXY def
+R4024:4031 PLF.Equiv Himp pYX def
+R3976:3994 PLF.Equiv Himp pXY_cequiv_pYX prfax
+R3999:4000 Corelib.Init.Logic <> or ind
+R4035:4037 Corelib.Init.Logic <> not def
+R4040:4050 PLF.Equiv Himp cequiv def
+R4052:4059 PLF.Equiv Himp pXY def
+R4061:4068 PLF.Equiv Himp pYX def
+R4003:4013 PLF.Equiv Himp cequiv def
+R4015:4022 PLF.Equiv Himp pXY def
+R4024:4031 PLF.Equiv Himp pYX def
+R4122:4140 PLF.Equiv Himp pXY_cequiv_pYX prfax
+def 4143:4151 <> Unnamed_thm
+R4148:4151 Corelib.Init.Logic <> True ind
+R4331:4349 PLF.Equiv Himp p1_may_diverge prfax
+R4378:4390 Stdlib.Strings.String <> string ind
+R4393:4395 Corelib.Init.Datatypes <> nat ind
+binder 4362:4363 <> st:37
+R4405:4409 PLF.Imp <> state def
+binder 4399:4401 <> st':38
+R4420:4422 Corelib.Init.Logic <> not def
+R4426:4427 Corelib.Init.Logic <> eq ind
+R4429:4431 Corelib.Init.Datatypes <> nat ind
+R4434:4435 PLF.EquivTest <> st:37 var
+R4437:4437 PLF.Imp <> X def
+R4446:4448 Corelib.Init.Logic <> not def
+R4451:4460 PLF.Equiv Himp ceval ind
+R4462:4468 PLF.Equiv Himp p1 def
+R4470:4471 PLF.EquivTest <> st:37 var
+R4473:4475 PLF.EquivTest <> st':38 var
+R4331:4349 PLF.Equiv Himp p1_may_diverge prfax
+R4378:4390 Stdlib.Strings.String <> string ind
+R4393:4395 Corelib.Init.Datatypes <> nat ind
+binder 4362:4363 <> st:39
+R4405:4409 PLF.Imp <> state def
+binder 4399:4401 <> st':40
+R4420:4422 Corelib.Init.Logic <> not def
+R4426:4427 Corelib.Init.Logic <> eq ind
+R4429:4431 Corelib.Init.Datatypes <> nat ind
+R4434:4435 PLF.EquivTest <> st:39 var
+R4437:4437 PLF.Imp <> X def
+R4446:4448 Corelib.Init.Logic <> not def
+R4451:4460 PLF.Equiv Himp ceval ind
+R4462:4468 PLF.Equiv Himp p1 def
+R4470:4471 PLF.EquivTest <> st:39 var
+R4473:4475 PLF.EquivTest <> st':40 var
+R4528:4546 PLF.Equiv Himp p1_may_diverge prfax
+def 4549:4557 <> Unnamed_thm
+R4554:4557 Corelib.Init.Logic <> True ind
+R4662:4680 PLF.Equiv Himp p2_may_diverge prfax
+R4709:4721 Stdlib.Strings.String <> string ind
+R4724:4726 Corelib.Init.Datatypes <> nat ind
+binder 4693:4694 <> st:41
+R4736:4740 PLF.Imp <> state def
+binder 4730:4732 <> st':42
+R4751:4753 Corelib.Init.Logic <> not def
+R4757:4758 Corelib.Init.Logic <> eq ind
+R4760:4762 Corelib.Init.Datatypes <> nat ind
+R4765:4766 PLF.EquivTest <> st:41 var
+R4768:4768 PLF.Imp <> X def
+R4777:4779 Corelib.Init.Logic <> not def
+R4782:4791 PLF.Equiv Himp ceval ind
+R4793:4799 PLF.Equiv Himp p2 def
+R4801:4802 PLF.EquivTest <> st:41 var
+R4804:4806 PLF.EquivTest <> st':42 var
+R4662:4680 PLF.Equiv Himp p2_may_diverge prfax
+R4709:4721 Stdlib.Strings.String <> string ind
+R4724:4726 Corelib.Init.Datatypes <> nat ind
+binder 4693:4694 <> st:43
+R4736:4740 PLF.Imp <> state def
+binder 4730:4732 <> st':44
+R4751:4753 Corelib.Init.Logic <> not def
+R4757:4758 Corelib.Init.Logic <> eq ind
+R4760:4762 Corelib.Init.Datatypes <> nat ind
+R4765:4766 PLF.EquivTest <> st:43 var
+R4768:4768 PLF.Imp <> X def
+R4777:4779 Corelib.Init.Logic <> not def
+R4782:4791 PLF.Equiv Himp ceval ind
+R4793:4799 PLF.Equiv Himp p2 def
+R4801:4802 PLF.EquivTest <> st:43 var
+R4804:4806 PLF.EquivTest <> st':44 var
+R4859:4877 PLF.Equiv Himp p2_may_diverge prfax
+def 4880:4888 <> Unnamed_thm
+R4885:4888 Corelib.Init.Logic <> True ind
+R5066:5081 PLF.Equiv Himp p1_p2_equiv prfax
+R5085:5095 PLF.Equiv Himp cequiv def
+R5097:5103 PLF.Equiv Himp p1 def
+R5105:5111 PLF.Equiv Himp p2 def
+R5066:5081 PLF.Equiv Himp p1_p2_equiv prfax
+R5085:5095 PLF.Equiv Himp cequiv def
+R5097:5103 PLF.Equiv Himp p1 def
+R5105:5111 PLF.Equiv Himp p2 def
+R5163:5178 PLF.Equiv Himp p1_p2_equiv prfax
+def 5181:5189 <> Unnamed_thm
+R5186:5189 Corelib.Init.Logic <> True ind
+R5371:5388 PLF.Equiv Himp p3_p4_inequiv prfax
+R5392:5394 Corelib.Init.Logic <> not def
+R5397:5407 PLF.Equiv Himp cequiv def
+R5409:5415 PLF.Equiv Himp p3 def
+R5417:5423 PLF.Equiv Himp p4 def
+R5371:5388 PLF.Equiv Himp p3_p4_inequiv prfax
+R5392:5394 Corelib.Init.Logic <> not def
+R5397:5407 PLF.Equiv Himp cequiv def
+R5409:5415 PLF.Equiv Himp p3 def
+R5417:5423 PLF.Equiv Himp p4 def
+R5476:5493 PLF.Equiv Himp p3_p4_inequiv prfax
+def 5496:5504 <> Unnamed_thm
+R5501:5504 Corelib.Init.Logic <> True ind
+R6456:6465 PLF.Equiv <> skip_right prfax
+R6525:6532 PLF.Equiv <> if_false prfax
+R6600:6615 PLF.Equiv <> swap_if_branches prfax
+R6677:6686 PLF.Equiv <> while_true prfax
+R6751:6763 PLF.Equiv <> assign_aequiv prfax
+R6829:6842 PLF.Equiv <> CIf_congruence prfax
+R6918:6941 PLF.Equiv <> fold_constants_com_sound prfax
+R7009:7024 PLF.Equiv <> inequiv_exercise prfax
+R7162:7180 PLF.Equiv Himp pXY_cequiv_pYX prfax
+R7357:7375 PLF.Equiv Himp p1_may_diverge prfax
+R7446:7464 PLF.Equiv Himp p2_may_diverge prfax
+R7532:7547 PLF.Equiv Himp p1_p2_equiv prfax
+R7617:7634 PLF.Equiv Himp p3_p4_inequiv prfax

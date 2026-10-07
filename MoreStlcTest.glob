@@ -1,0 +1,209 @@
+DIGEST 77c4b0f3a893949938ed944049a48610
+FPLF.MoreStlcTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:112 PLF.MoreStlc <> <> lib
+ax 126:132 <> MISSING
+mod 149:153 <> Check
+R219:225 PLF.MoreStlcTest <> MISSING defax
+R219:225 PLF.MoreStlcTest <> MISSING defax
+R439:442 Corelib.Init.Datatypes <> Some constr
+R439:442 Corelib.Init.Datatypes <> Some constr
+R622:625 Corelib.Init.Datatypes <> None constr
+R622:625 Corelib.Init.Datatypes <> None constr
+R707:711 PLF.MoreStlcTest Check <> mod
+R739:746 PLF.MoreStlc <> <> lib
+R756:760 PLF.MoreStlcTest Check <> mod
+def 764:772 <> Unnamed_thm
+R769:772 Corelib.Init.Logic <> True ind
+R930:947 PLF.MoreStlc STLCExtended subst def
+R964:976 Stdlib.Strings.String <> string ind
+R984:998 PLF.MoreStlc STLCExtended tm ind
+R1006:1020 PLF.MoreStlc STLCExtended tm ind
+R1025:1039 PLF.MoreStlc STLCExtended tm ind
+R930:947 PLF.MoreStlc STLCExtended subst def
+R964:976 Stdlib.Strings.String <> string ind
+R984:998 PLF.MoreStlc STLCExtended tm ind
+R1006:1020 PLF.MoreStlc STLCExtended tm ind
+R1025:1039 PLF.MoreStlc STLCExtended tm ind
+R1091:1108 PLF.MoreStlc STLCExtended subst def
+def 1111:1119 <> Unnamed_thm
+R1116:1119 Corelib.Init.Logic <> True ind
+R1286:1302 PLF.MoreStlc STLCExtended step ind
+R1319:1333 PLF.MoreStlc STLCExtended tm ind
+R1341:1355 PLF.MoreStlc STLCExtended tm ind
+R1286:1302 PLF.MoreStlc STLCExtended step ind
+R1319:1333 PLF.MoreStlc STLCExtended tm ind
+R1341:1355 PLF.MoreStlc STLCExtended tm ind
+R1414:1430 PLF.MoreStlc STLCExtended step ind
+def 1433:1441 <> Unnamed_thm
+R1438:1441 Corelib.Init.Logic <> True ind
+R1616:1636 PLF.MoreStlc STLCExtended has_type ind
+R1653:1672 PLF.MoreStlc STLCExtended context def
+R1680:1694 PLF.MoreStlc STLCExtended tm ind
+R1705:1719 PLF.MoreStlc STLCExtended ty ind
+R1616:1636 PLF.MoreStlc STLCExtended has_type ind
+R1653:1672 PLF.MoreStlc STLCExtended context def
+R1680:1694 PLF.MoreStlc STLCExtended tm ind
+R1705:1719 PLF.MoreStlc STLCExtended ty ind
+R1779:1799 PLF.MoreStlc STLCExtended has_type ind
+def 1802:1810 <> Unnamed_thm
+R1807:1810 Corelib.Init.Logic <> True ind
+R1985:2005 PLF.MoreStlc STLCExtended progress prfax
+R2022:2036 PLF.MoreStlc STLCExtended tm ind
+binder 2018:2018 <> t:3
+R2044:2058 PLF.MoreStlc STLCExtended ty ind
+binder 2040:2040 <> T:4
+R2069:2089 PLF.MoreStlc STLCExtended has_type ind
+R2093:2102 PLF.Maps <> empty def
+R2104:2118 PLF.MoreStlc STLCExtended ty ind
+R2121:2121 PLF.MoreStlcTest <> t:3 var
+R2123:2123 PLF.MoreStlcTest <> T:4 var
+R2128:2129 Corelib.Init.Logic <> or ind
+R2159:2160 Corelib.Init.Logic <> ex ind
+R2162:2176 PLF.MoreStlc STLCExtended tm ind
+R2188:2202 PLF.MoreStlc STLCExtended tm ind
+binder 2183:2184 <> t':5
+R2207:2223 PLF.MoreStlc STLCExtended step ind
+R2225:2225 PLF.MoreStlcTest <> t:3 var
+R2227:2228 PLF.MoreStlcTest <> t':5 var
+R2132:2149 PLF.MoreStlc STLCExtended value ind
+R2151:2151 PLF.MoreStlcTest <> t:3 var
+R1985:2005 PLF.MoreStlc STLCExtended progress prfax
+R2022:2036 PLF.MoreStlc STLCExtended tm ind
+binder 2018:2018 <> t:6
+R2044:2058 PLF.MoreStlc STLCExtended ty ind
+binder 2040:2040 <> T:7
+R2069:2089 PLF.MoreStlc STLCExtended has_type ind
+R2093:2102 PLF.Maps <> empty def
+R2104:2118 PLF.MoreStlc STLCExtended ty ind
+R2121:2121 PLF.MoreStlcTest <> t:6 var
+R2123:2123 PLF.MoreStlcTest <> T:7 var
+R2128:2129 Corelib.Init.Logic <> or ind
+R2159:2160 Corelib.Init.Logic <> ex ind
+R2162:2176 PLF.MoreStlc STLCExtended tm ind
+R2188:2202 PLF.MoreStlc STLCExtended tm ind
+binder 2183:2184 <> t':8
+R2207:2223 PLF.MoreStlc STLCExtended step ind
+R2225:2225 PLF.MoreStlcTest <> t:6 var
+R2227:2228 PLF.MoreStlcTest <> t':8 var
+R2132:2149 PLF.MoreStlc STLCExtended value ind
+R2151:2151 PLF.MoreStlcTest <> t:6 var
+R2282:2302 PLF.MoreStlc STLCExtended progress prfax
+def 2305:2313 <> Unnamed_thm
+R2310:2313 Corelib.Init.Logic <> True ind
+R2530:2571 PLF.MoreStlc STLCExtended substitution_preserves_typing prfax
+R2592:2607 PLF.Maps <> partial_map def
+R2609:2623 PLF.MoreStlc STLCExtended ty ind
+binder 2584:2588 <> Gamma:9
+R2634:2646 Stdlib.Strings.String <> string ind
+binder 2630:2630 <> x:10
+R2654:2668 PLF.MoreStlc STLCExtended ty ind
+binder 2650:2650 <> U:11
+R2678:2692 PLF.MoreStlc STLCExtended tm ind
+binder 2672:2672 <> t:12
+binder 2674:2674 <> v:13
+R2703:2717 PLF.MoreStlc STLCExtended ty ind
+binder 2699:2699 <> T:14
+R2728:2748 PLF.MoreStlc STLCExtended has_type ind
+R2752:2762 PLF.Maps <> update def
+R2764:2778 PLF.MoreStlc STLCExtended ty ind
+R2780:2784 PLF.MoreStlcTest <> Gamma:9 var
+R2786:2786 PLF.MoreStlcTest <> x:10 var
+R2788:2788 PLF.MoreStlcTest <> U:11 var
+R2791:2791 PLF.MoreStlcTest <> t:12 var
+R2793:2793 PLF.MoreStlcTest <> T:14 var
+R2804:2824 PLF.MoreStlc STLCExtended has_type ind
+R2828:2837 PLF.Maps <> empty def
+R2839:2853 PLF.MoreStlc STLCExtended ty ind
+R2856:2856 PLF.MoreStlcTest <> v:13 var
+R2858:2858 PLF.MoreStlcTest <> U:11 var
+R2863:2883 PLF.MoreStlc STLCExtended has_type ind
+R2885:2889 PLF.MoreStlcTest <> Gamma:9 var
+R2892:2909 PLF.MoreStlc STLCExtended subst def
+R2911:2911 PLF.MoreStlcTest <> x:10 var
+R2913:2913 PLF.MoreStlcTest <> v:13 var
+R2915:2915 PLF.MoreStlcTest <> t:12 var
+R2918:2918 PLF.MoreStlcTest <> T:14 var
+R2530:2571 PLF.MoreStlc STLCExtended substitution_preserves_typing prfax
+R2592:2607 PLF.Maps <> partial_map def
+R2609:2623 PLF.MoreStlc STLCExtended ty ind
+binder 2584:2588 <> Gamma:15
+R2634:2646 Stdlib.Strings.String <> string ind
+binder 2630:2630 <> x:16
+R2654:2668 PLF.MoreStlc STLCExtended ty ind
+binder 2650:2650 <> U:17
+R2678:2692 PLF.MoreStlc STLCExtended tm ind
+binder 2672:2672 <> t:18
+binder 2674:2674 <> v:19
+R2703:2717 PLF.MoreStlc STLCExtended ty ind
+binder 2699:2699 <> T:20
+R2728:2748 PLF.MoreStlc STLCExtended has_type ind
+R2752:2762 PLF.Maps <> update def
+R2764:2778 PLF.MoreStlc STLCExtended ty ind
+R2780:2784 PLF.MoreStlcTest <> Gamma:15 var
+R2786:2786 PLF.MoreStlcTest <> x:16 var
+R2788:2788 PLF.MoreStlcTest <> U:17 var
+R2791:2791 PLF.MoreStlcTest <> t:18 var
+R2793:2793 PLF.MoreStlcTest <> T:20 var
+R2804:2824 PLF.MoreStlc STLCExtended has_type ind
+R2828:2837 PLF.Maps <> empty def
+R2839:2853 PLF.MoreStlc STLCExtended ty ind
+R2856:2856 PLF.MoreStlcTest <> v:19 var
+R2858:2858 PLF.MoreStlcTest <> U:17 var
+R2863:2883 PLF.MoreStlc STLCExtended has_type ind
+R2885:2889 PLF.MoreStlcTest <> Gamma:15 var
+R2892:2909 PLF.MoreStlc STLCExtended subst def
+R2911:2911 PLF.MoreStlcTest <> x:16 var
+R2913:2913 PLF.MoreStlcTest <> v:19 var
+R2915:2915 PLF.MoreStlcTest <> t:18 var
+R2918:2918 PLF.MoreStlcTest <> T:20 var
+R2970:3011 PLF.MoreStlc STLCExtended substitution_preserves_typing prfax
+def 3014:3022 <> Unnamed_thm
+R3019:3022 Corelib.Init.Logic <> True ind
+R3205:3229 PLF.MoreStlc STLCExtended preservation prfax
+R3249:3263 PLF.MoreStlc STLCExtended tm ind
+binder 3242:3242 <> t:21
+binder 3244:3245 <> t':22
+R3271:3285 PLF.MoreStlc STLCExtended ty ind
+binder 3267:3267 <> T:23
+R3296:3316 PLF.MoreStlc STLCExtended has_type ind
+R3320:3329 PLF.Maps <> empty def
+R3331:3345 PLF.MoreStlc STLCExtended ty ind
+R3348:3348 PLF.MoreStlcTest <> t:21 var
+R3350:3350 PLF.MoreStlcTest <> T:23 var
+R3361:3377 PLF.MoreStlc STLCExtended step ind
+R3379:3379 PLF.MoreStlcTest <> t:21 var
+R3381:3382 PLF.MoreStlcTest <> t':22 var
+R3387:3407 PLF.MoreStlc STLCExtended has_type ind
+R3411:3420 PLF.Maps <> empty def
+R3422:3436 PLF.MoreStlc STLCExtended ty ind
+R3439:3440 PLF.MoreStlcTest <> t':22 var
+R3442:3442 PLF.MoreStlcTest <> T:23 var
+R3205:3229 PLF.MoreStlc STLCExtended preservation prfax
+R3249:3263 PLF.MoreStlc STLCExtended tm ind
+binder 3242:3242 <> t:24
+binder 3244:3245 <> t':25
+R3271:3285 PLF.MoreStlc STLCExtended ty ind
+binder 3267:3267 <> T:26
+R3296:3316 PLF.MoreStlc STLCExtended has_type ind
+R3320:3329 PLF.Maps <> empty def
+R3331:3345 PLF.MoreStlc STLCExtended ty ind
+R3348:3348 PLF.MoreStlcTest <> t:24 var
+R3350:3350 PLF.MoreStlcTest <> T:26 var
+R3361:3377 PLF.MoreStlc STLCExtended step ind
+R3379:3379 PLF.MoreStlcTest <> t:24 var
+R3381:3382 PLF.MoreStlcTest <> t':25 var
+R3387:3407 PLF.MoreStlc STLCExtended has_type ind
+R3411:3420 PLF.Maps <> empty def
+R3422:3436 PLF.MoreStlc STLCExtended ty ind
+R3439:3440 PLF.MoreStlcTest <> t':25 var
+R3442:3442 PLF.MoreStlcTest <> T:26 var
+R3494:3518 PLF.MoreStlc STLCExtended preservation prfax
+def 3521:3529 <> Unnamed_thm
+R3526:3529 Corelib.Init.Logic <> True ind
+R4489:4506 PLF.MoreStlc STLCExtended subst def
+R4575:4591 PLF.MoreStlc STLCExtended step ind
+R4664:4684 PLF.MoreStlc STLCExtended has_type ind
+R4757:4777 PLF.MoreStlc STLCExtended progress prfax
+R4871:4912 PLF.MoreStlc STLCExtended substitution_preserves_typing prfax
+R4989:5013 PLF.MoreStlc STLCExtended preservation prfax

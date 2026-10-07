@@ -1,0 +1,17 @@
+DIGEST cc90e3aec0a249a5542730b127ffc87f
+FPLF.PostscriptTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:114 PLF.Postscript <> <> lib
+ax 128:134 <> MISSING
+mod 151:155 <> Check
+R221:227 PLF.PostscriptTest <> MISSING defax
+R221:227 PLF.PostscriptTest <> MISSING defax
+R441:444 Corelib.Init.Datatypes <> Some constr
+R441:444 Corelib.Init.Datatypes <> Some constr
+R624:627 Corelib.Init.Datatypes <> None constr
+R624:627 Corelib.Init.Datatypes <> None constr
+R709:713 PLF.PostscriptTest Check <> mod
+R741:750 PLF.Postscript <> <> lib
+R760:764 PLF.PostscriptTest Check <> mod
+def 768:776 <> Unnamed_thm
+R773:776 Corelib.Init.Logic <> True ind

@@ -1,0 +1,389 @@
+DIGEST 8553a177c6fa678a1f6581105f6ac558
+FPLF.StlcPropTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:112 PLF.StlcProp <> <> lib
+ax 126:132 <> MISSING
+mod 149:153 <> Check
+R219:225 PLF.StlcPropTest <> MISSING defax
+R219:225 PLF.StlcPropTest <> MISSING defax
+R439:442 Corelib.Init.Datatypes <> Some constr
+R439:442 Corelib.Init.Datatypes <> Some constr
+R622:625 Corelib.Init.Datatypes <> None constr
+R622:625 Corelib.Init.Datatypes <> None constr
+R707:711 PLF.StlcPropTest Check <> mod
+R739:746 PLF.StlcProp <> <> lib
+R756:760 PLF.StlcPropTest Check <> mod
+def 764:772 <> Unnamed_thm
+R769:772 Corelib.Init.Logic <> True ind
+R952:969 PLF.StlcProp STLCProp progress' prfax
+R986:997 PLF.Stlc STLC tm ind
+binder 982:982 <> t:3
+R1005:1016 PLF.Stlc STLC ty ind
+binder 1001:1001 <> T:4
+R1027:1044 PLF.Stlc STLC has_type ind
+R1048:1057 PLF.Maps <> empty def
+R1059:1070 PLF.Stlc STLC ty ind
+R1073:1073 PLF.StlcPropTest <> t:3 var
+R1075:1075 PLF.StlcPropTest <> T:4 var
+R1080:1081 Corelib.Init.Logic <> or ind
+R1108:1109 Corelib.Init.Logic <> ex ind
+R1111:1122 PLF.Stlc STLC tm ind
+R1134:1145 PLF.Stlc STLC tm ind
+binder 1129:1130 <> t':5
+R1150:1163 PLF.Stlc STLC step ind
+R1165:1165 PLF.StlcPropTest <> t:3 var
+R1167:1168 PLF.StlcPropTest <> t':5 var
+R1084:1098 PLF.Stlc STLC value ind
+R1100:1100 PLF.StlcPropTest <> t:3 var
+R952:969 PLF.StlcProp STLCProp progress' prfax
+R986:997 PLF.Stlc STLC tm ind
+binder 982:982 <> t:6
+R1005:1016 PLF.Stlc STLC ty ind
+binder 1001:1001 <> T:7
+R1027:1044 PLF.Stlc STLC has_type ind
+R1048:1057 PLF.Maps <> empty def
+R1059:1070 PLF.Stlc STLC ty ind
+R1073:1073 PLF.StlcPropTest <> t:6 var
+R1075:1075 PLF.StlcPropTest <> T:7 var
+R1080:1081 Corelib.Init.Logic <> or ind
+R1108:1109 Corelib.Init.Logic <> ex ind
+R1111:1122 PLF.Stlc STLC tm ind
+R1134:1145 PLF.Stlc STLC tm ind
+binder 1129:1130 <> t':8
+R1150:1163 PLF.Stlc STLC step ind
+R1165:1165 PLF.StlcPropTest <> t:6 var
+R1167:1168 PLF.StlcPropTest <> t':8 var
+R1084:1098 PLF.Stlc STLC value ind
+R1100:1100 PLF.StlcPropTest <> t:6 var
+R1222:1239 PLF.StlcProp STLCProp progress' prfax
+def 1242:1250 <> Unnamed_thm
+R1247:1250 Corelib.Init.Logic <> True ind
+R1500:1553 PLF.StlcProp STLCProp substitution_preserves_typing_from_typing_ind prfax
+R1574:1589 PLF.Maps <> partial_map def
+R1591:1602 PLF.Stlc STLC ty ind
+binder 1566:1570 <> Gamma:9
+R1610:1622 Stdlib.Strings.String <> string ind
+binder 1606:1606 <> x:10
+R1633:1644 PLF.Stlc STLC ty ind
+binder 1629:1629 <> U:11
+R1654:1665 PLF.Stlc STLC tm ind
+binder 1648:1648 <> t:12
+binder 1650:1650 <> v:13
+R1673:1684 PLF.Stlc STLC ty ind
+binder 1669:1669 <> T:14
+R1695:1712 PLF.Stlc STLC has_type ind
+R1716:1726 PLF.Maps <> update def
+R1728:1739 PLF.Stlc STLC ty ind
+R1741:1745 PLF.StlcPropTest <> Gamma:9 var
+R1747:1747 PLF.StlcPropTest <> x:10 var
+R1749:1749 PLF.StlcPropTest <> U:11 var
+R1752:1752 PLF.StlcPropTest <> t:12 var
+R1754:1754 PLF.StlcPropTest <> T:14 var
+R1765:1782 PLF.Stlc STLC has_type ind
+R1786:1795 PLF.Maps <> empty def
+R1797:1808 PLF.Stlc STLC ty ind
+R1811:1811 PLF.StlcPropTest <> v:13 var
+R1813:1813 PLF.StlcPropTest <> U:11 var
+R1818:1835 PLF.Stlc STLC has_type ind
+R1837:1841 PLF.StlcPropTest <> Gamma:9 var
+R1844:1858 PLF.Stlc STLC subst def
+R1860:1860 PLF.StlcPropTest <> x:10 var
+R1862:1862 PLF.StlcPropTest <> v:13 var
+R1864:1864 PLF.StlcPropTest <> t:12 var
+R1867:1867 PLF.StlcPropTest <> T:14 var
+R1500:1553 PLF.StlcProp STLCProp substitution_preserves_typing_from_typing_ind prfax
+R1574:1589 PLF.Maps <> partial_map def
+R1591:1602 PLF.Stlc STLC ty ind
+binder 1566:1570 <> Gamma:15
+R1610:1622 Stdlib.Strings.String <> string ind
+binder 1606:1606 <> x:16
+R1633:1644 PLF.Stlc STLC ty ind
+binder 1629:1629 <> U:17
+R1654:1665 PLF.Stlc STLC tm ind
+binder 1648:1648 <> t:18
+binder 1650:1650 <> v:19
+R1673:1684 PLF.Stlc STLC ty ind
+binder 1669:1669 <> T:20
+R1695:1712 PLF.Stlc STLC has_type ind
+R1716:1726 PLF.Maps <> update def
+R1728:1739 PLF.Stlc STLC ty ind
+R1741:1745 PLF.StlcPropTest <> Gamma:15 var
+R1747:1747 PLF.StlcPropTest <> x:16 var
+R1749:1749 PLF.StlcPropTest <> U:17 var
+R1752:1752 PLF.StlcPropTest <> t:18 var
+R1754:1754 PLF.StlcPropTest <> T:20 var
+R1765:1782 PLF.Stlc STLC has_type ind
+R1786:1795 PLF.Maps <> empty def
+R1797:1808 PLF.Stlc STLC ty ind
+R1811:1811 PLF.StlcPropTest <> v:19 var
+R1813:1813 PLF.StlcPropTest <> U:17 var
+R1818:1835 PLF.Stlc STLC has_type ind
+R1837:1841 PLF.StlcPropTest <> Gamma:15 var
+R1844:1858 PLF.Stlc STLC subst def
+R1860:1860 PLF.StlcPropTest <> x:16 var
+R1862:1862 PLF.StlcPropTest <> v:19 var
+R1864:1864 PLF.StlcPropTest <> t:18 var
+R1867:1867 PLF.StlcPropTest <> T:20 var
+R1919:1972 PLF.StlcProp STLCProp substitution_preserves_typing_from_typing_ind prfax
+def 1975:1983 <> Unnamed_thm
+R1980:1983 Corelib.Init.Logic <> True ind
+R2193:2240 PLF.StlcProp STLCProp manual_grade_for_subject_expansion_stlc def
+R2193:2240 PLF.StlcProp STLCProp manual_grade_for_subject_expansion_stlc def
+R2406:2426 PLF.StlcProp STLCProp unique_types prfax
+R2447:2463 PLF.Stlc STLC context def
+binder 2439:2443 <> Gamma:21
+R2471:2482 PLF.Stlc STLC tm ind
+binder 2467:2467 <> e:22
+R2496:2507 PLF.Stlc STLC ty ind
+binder 2489:2489 <> T:23
+binder 2491:2492 <> T':24
+R2515:2532 PLF.Stlc STLC has_type ind
+R2534:2538 PLF.StlcPropTest <> Gamma:21 var
+R2540:2540 PLF.StlcPropTest <> e:22 var
+R2542:2542 PLF.StlcPropTest <> T:23 var
+R2553:2570 PLF.Stlc STLC has_type ind
+R2572:2576 PLF.StlcPropTest <> Gamma:21 var
+R2578:2578 PLF.StlcPropTest <> e:22 var
+R2580:2581 PLF.StlcPropTest <> T':24 var
+R2587:2588 Corelib.Init.Logic <> eq ind
+R2590:2601 PLF.Stlc STLC ty ind
+R2603:2603 PLF.StlcPropTest <> T:23 var
+R2605:2606 PLF.StlcPropTest <> T':24 var
+R2406:2426 PLF.StlcProp STLCProp unique_types prfax
+R2447:2463 PLF.Stlc STLC context def
+binder 2439:2443 <> Gamma:25
+R2471:2482 PLF.Stlc STLC tm ind
+binder 2467:2467 <> e:26
+R2496:2507 PLF.Stlc STLC ty ind
+binder 2489:2489 <> T:27
+binder 2491:2492 <> T':28
+R2515:2532 PLF.Stlc STLC has_type ind
+R2534:2538 PLF.StlcPropTest <> Gamma:25 var
+R2540:2540 PLF.StlcPropTest <> e:26 var
+R2542:2542 PLF.StlcPropTest <> T:27 var
+R2553:2570 PLF.Stlc STLC has_type ind
+R2572:2576 PLF.StlcPropTest <> Gamma:25 var
+R2578:2578 PLF.StlcPropTest <> e:26 var
+R2580:2581 PLF.StlcPropTest <> T':28 var
+R2587:2588 Corelib.Init.Logic <> eq ind
+R2590:2601 PLF.Stlc STLC ty ind
+R2603:2603 PLF.StlcPropTest <> T:27 var
+R2605:2606 PLF.StlcPropTest <> T':28 var
+R2658:2678 PLF.StlcProp STLCProp unique_types prfax
+def 2681:2689 <> Unnamed_thm
+R2686:2689 Corelib.Init.Logic <> True ind
+R2861:2884 PLF.StlcProp STLCProp free_in_context prfax
+R2901:2913 Stdlib.Strings.String <> string ind
+binder 2897:2897 <> x:29
+R2921:2932 PLF.Stlc STLC tm ind
+binder 2917:2917 <> t:30
+R2940:2951 PLF.Stlc STLC ty ind
+binder 2936:2936 <> T:31
+R2966:2982 PLF.Stlc STLC context def
+binder 2958:2962 <> Gamma:32
+R2990:3013 PLF.StlcProp STLCProp appears_free_in ind
+R3015:3015 PLF.StlcPropTest <> x:29 var
+R3017:3017 PLF.StlcPropTest <> t:30 var
+R3028:3045 PLF.Stlc STLC has_type ind
+R3047:3051 PLF.StlcPropTest <> Gamma:32 var
+R3053:3053 PLF.StlcPropTest <> t:30 var
+R3055:3055 PLF.StlcPropTest <> T:31 var
+R3061:3062 Corelib.Init.Logic <> ex ind
+R3064:3075 PLF.Stlc STLC ty ind
+R3090:3101 PLF.Stlc STLC ty ind
+binder 3085:3086 <> T':33
+R3111:3112 Corelib.Init.Logic <> eq ind
+R3115:3120 Corelib.Init.Datatypes <> option ind
+R3122:3133 PLF.Stlc STLC ty ind
+R3137:3141 PLF.StlcPropTest <> Gamma:32 var
+R3143:3143 PLF.StlcPropTest <> x:29 var
+R3148:3151 Corelib.Init.Datatypes <> Some constr
+R3153:3164 PLF.Stlc STLC ty ind
+R3166:3167 PLF.StlcPropTest <> T':33 var
+R2861:2884 PLF.StlcProp STLCProp free_in_context prfax
+R2901:2913 Stdlib.Strings.String <> string ind
+binder 2897:2897 <> x:34
+R2921:2932 PLF.Stlc STLC tm ind
+binder 2917:2917 <> t:35
+R2940:2951 PLF.Stlc STLC ty ind
+binder 2936:2936 <> T:36
+R2966:2982 PLF.Stlc STLC context def
+binder 2958:2962 <> Gamma:37
+R2990:3013 PLF.StlcProp STLCProp appears_free_in ind
+R3015:3015 PLF.StlcPropTest <> x:34 var
+R3017:3017 PLF.StlcPropTest <> t:35 var
+R3028:3045 PLF.Stlc STLC has_type ind
+R3047:3051 PLF.StlcPropTest <> Gamma:37 var
+R3053:3053 PLF.StlcPropTest <> t:35 var
+R3055:3055 PLF.StlcPropTest <> T:36 var
+R3061:3062 Corelib.Init.Logic <> ex ind
+R3064:3075 PLF.Stlc STLC ty ind
+R3090:3101 PLF.Stlc STLC ty ind
+binder 3085:3086 <> T':38
+R3111:3112 Corelib.Init.Logic <> eq ind
+R3115:3120 Corelib.Init.Datatypes <> option ind
+R3122:3133 PLF.Stlc STLC ty ind
+R3137:3141 PLF.StlcPropTest <> Gamma:37 var
+R3143:3143 PLF.StlcPropTest <> x:34 var
+R3148:3151 Corelib.Init.Datatypes <> Some constr
+R3153:3164 PLF.Stlc STLC ty ind
+R3166:3167 PLF.StlcPropTest <> T':38 var
+R3221:3244 PLF.StlcProp STLCProp free_in_context prfax
+def 3247:3255 <> Unnamed_thm
+R3252:3255 Corelib.Init.Logic <> True ind
+R3451:3491 PLF.StlcProp STLCProp manual_grade_for_stlc_variation1 def
+R3451:3491 PLF.StlcProp STLCProp manual_grade_for_stlc_variation1 def
+R3687:3727 PLF.StlcProp STLCProp manual_grade_for_stlc_variation2 def
+R3687:3727 PLF.StlcProp STLCProp manual_grade_for_stlc_variation2 def
+R3923:3963 PLF.StlcProp STLCProp manual_grade_for_stlc_variation3 def
+R3923:3963 PLF.StlcProp STLCProp manual_grade_for_stlc_variation3 def
+R4127:4141 PLF.StlcProp STLCArith subst prfax
+R4158:4170 Stdlib.Strings.String <> string ind
+R4178:4189 PLF.StlcProp STLCArith tm ind
+R4197:4208 PLF.StlcProp STLCArith tm ind
+R4213:4224 PLF.StlcProp STLCArith tm ind
+R4127:4141 PLF.StlcProp STLCArith subst prfax
+R4158:4170 Stdlib.Strings.String <> string ind
+R4178:4189 PLF.StlcProp STLCArith tm ind
+R4197:4208 PLF.StlcProp STLCArith tm ind
+R4213:4224 PLF.StlcProp STLCArith tm ind
+R4276:4290 PLF.StlcProp STLCArith subst prfax
+def 4293:4301 <> Unnamed_thm
+R4298:4301 Corelib.Init.Logic <> True ind
+R4472:4490 PLF.StlcProp STLCArith weakening prfax
+R4518:4533 PLF.Maps <> partial_map def
+R4535:4546 PLF.StlcProp STLCArith ty ind
+binder 4503:4507 <> Gamma:39
+binder 4509:4514 <> Gamma':40
+R4557:4568 PLF.StlcProp STLCArith tm ind
+binder 4553:4553 <> t:41
+R4576:4587 PLF.StlcProp STLCArith ty ind
+binder 4572:4572 <> T:42
+R4599:4613 PLF.Maps <> includedin def
+R4615:4626 PLF.StlcProp STLCArith ty ind
+R4628:4632 PLF.StlcPropTest <> Gamma:39 var
+R4634:4639 PLF.StlcPropTest <> Gamma':40 var
+R4650:4667 PLF.StlcProp STLCArith has_type ind
+R4669:4673 PLF.StlcPropTest <> Gamma:39 var
+R4675:4675 PLF.StlcPropTest <> t:41 var
+R4677:4677 PLF.StlcPropTest <> T:42 var
+R4682:4699 PLF.StlcProp STLCArith has_type ind
+R4701:4706 PLF.StlcPropTest <> Gamma':40 var
+R4708:4708 PLF.StlcPropTest <> t:41 var
+R4710:4710 PLF.StlcPropTest <> T:42 var
+R4472:4490 PLF.StlcProp STLCArith weakening prfax
+R4518:4533 PLF.Maps <> partial_map def
+R4535:4546 PLF.StlcProp STLCArith ty ind
+binder 4503:4507 <> Gamma:43
+binder 4509:4514 <> Gamma':44
+R4557:4568 PLF.StlcProp STLCArith tm ind
+binder 4553:4553 <> t:45
+R4576:4587 PLF.StlcProp STLCArith ty ind
+binder 4572:4572 <> T:46
+R4599:4613 PLF.Maps <> includedin def
+R4615:4626 PLF.StlcProp STLCArith ty ind
+R4628:4632 PLF.StlcPropTest <> Gamma:43 var
+R4634:4639 PLF.StlcPropTest <> Gamma':44 var
+R4650:4667 PLF.StlcProp STLCArith has_type ind
+R4669:4673 PLF.StlcPropTest <> Gamma:43 var
+R4675:4675 PLF.StlcPropTest <> t:45 var
+R4677:4677 PLF.StlcPropTest <> T:46 var
+R4682:4699 PLF.StlcProp STLCArith has_type ind
+R4701:4706 PLF.StlcPropTest <> Gamma':44 var
+R4708:4708 PLF.StlcPropTest <> t:45 var
+R4710:4710 PLF.StlcPropTest <> T:46 var
+R4762:4780 PLF.StlcProp STLCArith weakening prfax
+def 4783:4791 <> Unnamed_thm
+R4788:4791 Corelib.Init.Logic <> True ind
+R4968:4989 PLF.StlcProp STLCArith preservation prfax
+R5009:5020 PLF.StlcProp STLCArith tm ind
+binder 5002:5002 <> t:47
+binder 5004:5005 <> t':48
+R5028:5039 PLF.StlcProp STLCArith ty ind
+binder 5024:5024 <> T:49
+R5050:5067 PLF.StlcProp STLCArith has_type ind
+R5071:5080 PLF.Maps <> empty def
+R5082:5093 PLF.StlcProp STLCArith ty ind
+R5096:5096 PLF.StlcPropTest <> t:47 var
+R5098:5098 PLF.StlcPropTest <> T:49 var
+R5109:5122 PLF.StlcProp STLCArith step ind
+R5124:5124 PLF.StlcPropTest <> t:47 var
+R5126:5127 PLF.StlcPropTest <> t':48 var
+R5132:5149 PLF.StlcProp STLCArith has_type ind
+R5153:5162 PLF.Maps <> empty def
+R5164:5175 PLF.StlcProp STLCArith ty ind
+R5178:5179 PLF.StlcPropTest <> t':48 var
+R5181:5181 PLF.StlcPropTest <> T:49 var
+R4968:4989 PLF.StlcProp STLCArith preservation prfax
+R5009:5020 PLF.StlcProp STLCArith tm ind
+binder 5002:5002 <> t:50
+binder 5004:5005 <> t':51
+R5028:5039 PLF.StlcProp STLCArith ty ind
+binder 5024:5024 <> T:52
+R5050:5067 PLF.StlcProp STLCArith has_type ind
+R5071:5080 PLF.Maps <> empty def
+R5082:5093 PLF.StlcProp STLCArith ty ind
+R5096:5096 PLF.StlcPropTest <> t:50 var
+R5098:5098 PLF.StlcPropTest <> T:52 var
+R5109:5122 PLF.StlcProp STLCArith step ind
+R5124:5124 PLF.StlcPropTest <> t:50 var
+R5126:5127 PLF.StlcPropTest <> t':51 var
+R5132:5149 PLF.StlcProp STLCArith has_type ind
+R5153:5162 PLF.Maps <> empty def
+R5164:5175 PLF.StlcProp STLCArith ty ind
+R5178:5179 PLF.StlcPropTest <> t':51 var
+R5181:5181 PLF.StlcPropTest <> T:52 var
+R5233:5254 PLF.StlcProp STLCArith preservation prfax
+def 5257:5265 <> Unnamed_thm
+R5262:5265 Corelib.Init.Logic <> True ind
+R5434:5451 PLF.StlcProp STLCArith progress prfax
+R5468:5479 PLF.StlcProp STLCArith tm ind
+binder 5464:5464 <> t:53
+R5487:5498 PLF.StlcProp STLCArith ty ind
+binder 5483:5483 <> T:54
+R5509:5526 PLF.StlcProp STLCArith has_type ind
+R5530:5539 PLF.Maps <> empty def
+R5541:5552 PLF.StlcProp STLCArith ty ind
+R5555:5555 PLF.StlcPropTest <> t:53 var
+R5557:5557 PLF.StlcPropTest <> T:54 var
+R5562:5563 Corelib.Init.Logic <> or ind
+R5590:5591 Corelib.Init.Logic <> ex ind
+R5593:5604 PLF.StlcProp STLCArith tm ind
+R5616:5627 PLF.StlcProp STLCArith tm ind
+binder 5611:5612 <> t':55
+R5632:5645 PLF.StlcProp STLCArith step ind
+R5647:5647 PLF.StlcPropTest <> t:53 var
+R5649:5650 PLF.StlcPropTest <> t':55 var
+R5566:5580 PLF.StlcProp STLCArith value ind
+R5582:5582 PLF.StlcPropTest <> t:53 var
+R5434:5451 PLF.StlcProp STLCArith progress prfax
+R5468:5479 PLF.StlcProp STLCArith tm ind
+binder 5464:5464 <> t:56
+R5487:5498 PLF.StlcProp STLCArith ty ind
+binder 5483:5483 <> T:57
+R5509:5526 PLF.StlcProp STLCArith has_type ind
+R5530:5539 PLF.Maps <> empty def
+R5541:5552 PLF.StlcProp STLCArith ty ind
+R5555:5555 PLF.StlcPropTest <> t:56 var
+R5557:5557 PLF.StlcPropTest <> T:57 var
+R5562:5563 Corelib.Init.Logic <> or ind
+R5590:5591 Corelib.Init.Logic <> ex ind
+R5593:5604 PLF.StlcProp STLCArith tm ind
+R5616:5627 PLF.StlcProp STLCArith tm ind
+binder 5611:5612 <> t':58
+R5632:5645 PLF.StlcProp STLCArith step ind
+R5647:5647 PLF.StlcPropTest <> t:56 var
+R5649:5650 PLF.StlcPropTest <> t':58 var
+R5566:5580 PLF.StlcProp STLCArith value ind
+R5582:5582 PLF.StlcPropTest <> t:56 var
+R5704:5721 PLF.StlcProp STLCArith progress prfax
+def 5724:5732 <> Unnamed_thm
+R5729:5732 Corelib.Init.Logic <> True ind
+R6764:6784 PLF.StlcProp STLCProp unique_types prfax
+R6860:6883 PLF.StlcProp STLCProp free_in_context prfax
+R7136:7150 PLF.StlcProp STLCArith subst prfax
+R7221:7239 PLF.StlcProp STLCArith weakening prfax
+R7313:7334 PLF.StlcProp STLCArith preservation prfax
+R7404:7421 PLF.StlcProp STLCArith progress prfax
+R7541:7558 PLF.StlcProp STLCProp progress' prfax
+R7664:7717 PLF.StlcProp STLCProp substitution_preserves_typing_from_typing_ind prfax

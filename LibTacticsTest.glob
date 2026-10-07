@@ -1,0 +1,17 @@
+DIGEST 7bdf059ee0c90d712acb9bf0ddca08f0
+FPLF.LibTacticsTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:114 PLF.LibTactics <> <> lib
+ax 128:134 <> MISSING
+mod 151:155 <> Check
+R221:227 PLF.LibTacticsTest <> MISSING defax
+R221:227 PLF.LibTacticsTest <> MISSING defax
+R441:444 Corelib.Init.Datatypes <> Some constr
+R441:444 Corelib.Init.Datatypes <> Some constr
+R624:627 Corelib.Init.Datatypes <> None constr
+R624:627 Corelib.Init.Datatypes <> None constr
+R709:713 PLF.LibTacticsTest Check <> mod
+R741:750 PLF.LibTactics <> <> lib
+R760:764 PLF.LibTacticsTest Check <> mod
+def 768:776 <> Unnamed_thm
+R773:776 Corelib.Init.Logic <> True ind

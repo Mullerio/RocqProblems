@@ -1,0 +1,389 @@
+DIGEST ea37b061f4e55378742f24dcae428941
+FPLF.SmallstepTest
+R73:78 Stdlib.Strings.String <> <> lib
+R105:113 PLF.Smallstep <> <> lib
+ax 127:133 <> MISSING
+mod 150:154 <> Check
+R220:226 PLF.SmallstepTest <> MISSING defax
+R220:226 PLF.SmallstepTest <> MISSING defax
+R440:443 Corelib.Init.Datatypes <> Some constr
+R440:443 Corelib.Init.Datatypes <> Some constr
+R623:626 Corelib.Init.Datatypes <> None constr
+R623:626 Corelib.Init.Datatypes <> None constr
+R708:712 PLF.SmallstepTest Check <> mod
+R740:748 PLF.Smallstep <> <> lib
+R758:762 PLF.SmallstepTest Check <> mod
+def 766:774 <> Unnamed_thm
+R771:774 Corelib.Init.Logic <> True ind
+R931:954 PLF.Smallstep SimpleArith1 test_step_2 prfax
+R959:975 PLF.Smallstep SimpleArith1 step ind
+R978:978 PLF.Smallstep <> P constr
+R981:981 PLF.Smallstep <> C constr
+R987:987 PLF.Smallstep <> P constr
+R990:990 PLF.Smallstep <> C constr
+R996:996 PLF.Smallstep <> P constr
+R999:999 PLF.Smallstep <> C constr
+R1005:1005 PLF.Smallstep <> C constr
+R1017:1017 PLF.Smallstep <> P constr
+R1020:1020 PLF.Smallstep <> C constr
+R1026:1026 PLF.Smallstep <> P constr
+R1029:1029 PLF.Smallstep <> C constr
+R1035:1035 PLF.Smallstep <> C constr
+R931:954 PLF.Smallstep SimpleArith1 test_step_2 prfax
+R959:975 PLF.Smallstep SimpleArith1 step ind
+R978:978 PLF.Smallstep <> P constr
+R981:981 PLF.Smallstep <> C constr
+R987:987 PLF.Smallstep <> P constr
+R990:990 PLF.Smallstep <> C constr
+R996:996 PLF.Smallstep <> P constr
+R999:999 PLF.Smallstep <> C constr
+R1005:1005 PLF.Smallstep <> C constr
+R1017:1017 PLF.Smallstep <> P constr
+R1020:1020 PLF.Smallstep <> C constr
+R1026:1026 PLF.Smallstep <> P constr
+R1029:1029 PLF.Smallstep <> C constr
+R1035:1035 PLF.Smallstep <> C constr
+R1092:1115 PLF.Smallstep SimpleArith1 test_step_2 prfax
+def 1118:1126 <> Unnamed_thm
+R1123:1126 Corelib.Init.Logic <> True ind
+R1293:1310 PLF.Smallstep <> step_deterministic prfax
+R1315:1327 PLF.Smallstep <> deterministic def
+R1329:1330 PLF.Smallstep <> tm ind
+R1332:1335 PLF.Smallstep <> step ind
+R1293:1310 PLF.Smallstep <> step_deterministic prfax
+R1315:1327 PLF.Smallstep <> deterministic def
+R1329:1330 PLF.Smallstep <> tm ind
+R1332:1335 PLF.Smallstep <> step ind
+R1387:1404 PLF.Smallstep <> step_deterministic prfax
+def 1407:1415 <> Unnamed_thm
+R1412:1415 Corelib.Init.Logic <> True ind
+R1604:1636 PLF.Smallstep Temp4.Temp5 bool_step_prop4_holds prfax
+R1604:1636 PLF.Smallstep Temp4.Temp5 bool_step_prop4_holds prfax
+R1639:1665 PLF.Smallstep Temp4.Temp5 bool_step_prop4 def
+R1716:1748 PLF.Smallstep Temp4.Temp5 bool_step_prop4_holds prfax
+def 1751:1759 <> Unnamed_thm
+R1756:1759 Corelib.Init.Logic <> True ind
+R1924:1939 PLF.Smallstep <> test_multistep_4 prfax
+R1945:1949 PLF.Smallstep <> multi ind
+R1951:1952 PLF.Smallstep <> tm ind
+R1954:1957 PLF.Smallstep <> step ind
+R1960:1960 PLF.Smallstep <> P constr
+R1963:1963 PLF.Smallstep <> C constr
+R1969:1969 PLF.Smallstep <> P constr
+R1972:1972 PLF.Smallstep <> C constr
+R1978:1978 PLF.Smallstep <> P constr
+R1981:1981 PLF.Smallstep <> C constr
+R1987:1987 PLF.Smallstep <> C constr
+R1999:1999 PLF.Smallstep <> P constr
+R2002:2002 PLF.Smallstep <> C constr
+R2008:2008 PLF.Smallstep <> C constr
+R2011:2017 Corelib.Init.Nat <> add def
+R2022:2028 Corelib.Init.Nat <> add def
+R1924:1939 PLF.Smallstep <> test_multistep_4 prfax
+R1945:1949 PLF.Smallstep <> multi ind
+R1951:1952 PLF.Smallstep <> tm ind
+R1954:1957 PLF.Smallstep <> step ind
+R1960:1960 PLF.Smallstep <> P constr
+R1963:1963 PLF.Smallstep <> C constr
+R1969:1969 PLF.Smallstep <> P constr
+R1972:1972 PLF.Smallstep <> C constr
+R1978:1978 PLF.Smallstep <> P constr
+R1981:1981 PLF.Smallstep <> C constr
+R1987:1987 PLF.Smallstep <> C constr
+R1999:1999 PLF.Smallstep <> P constr
+R2002:2002 PLF.Smallstep <> C constr
+R2008:2008 PLF.Smallstep <> C constr
+R2011:2017 Corelib.Init.Nat <> add def
+R2022:2028 Corelib.Init.Nat <> add def
+R2088:2103 PLF.Smallstep <> test_multistep_4 prfax
+def 2106:2114 <> Unnamed_thm
+R2111:2114 Corelib.Init.Logic <> True ind
+R2281:2297 PLF.Smallstep <> multistep_congr_2 prfax
+R2322:2323 PLF.Smallstep <> tm ind
+binder 2310:2311 <> v1:3
+binder 2313:2314 <> t2:4
+binder 2316:2318 <> t2':5
+R2331:2335 PLF.Smallstep <> value ind
+R2337:2338 PLF.SmallstepTest <> v1:3 var
+R2347:2351 PLF.Smallstep <> multi ind
+R2353:2354 PLF.Smallstep <> tm ind
+R2356:2359 PLF.Smallstep <> step ind
+R2361:2362 PLF.SmallstepTest <> t2:4 var
+R2364:2366 PLF.SmallstepTest <> t2':5 var
+R2372:2376 PLF.Smallstep <> multi ind
+R2378:2379 PLF.Smallstep <> tm ind
+R2381:2384 PLF.Smallstep <> step ind
+R2387:2387 PLF.Smallstep <> P constr
+R2389:2390 PLF.SmallstepTest <> v1:3 var
+R2392:2393 PLF.SmallstepTest <> t2:4 var
+R2397:2397 PLF.Smallstep <> P constr
+R2399:2400 PLF.SmallstepTest <> v1:3 var
+R2402:2404 PLF.SmallstepTest <> t2':5 var
+R2281:2297 PLF.Smallstep <> multistep_congr_2 prfax
+R2322:2323 PLF.Smallstep <> tm ind
+binder 2310:2311 <> v1:6
+binder 2313:2314 <> t2:7
+binder 2316:2318 <> t2':8
+R2331:2335 PLF.Smallstep <> value ind
+R2337:2338 PLF.SmallstepTest <> v1:6 var
+R2347:2351 PLF.Smallstep <> multi ind
+R2353:2354 PLF.Smallstep <> tm ind
+R2356:2359 PLF.Smallstep <> step ind
+R2361:2362 PLF.SmallstepTest <> t2:7 var
+R2364:2366 PLF.SmallstepTest <> t2':8 var
+R2372:2376 PLF.Smallstep <> multi ind
+R2378:2379 PLF.Smallstep <> tm ind
+R2381:2384 PLF.Smallstep <> step ind
+R2387:2387 PLF.Smallstep <> P constr
+R2389:2390 PLF.SmallstepTest <> v1:6 var
+R2392:2393 PLF.SmallstepTest <> t2:7 var
+R2397:2397 PLF.Smallstep <> P constr
+R2399:2400 PLF.SmallstepTest <> v1:6 var
+R2402:2404 PLF.SmallstepTest <> t2':8 var
+R2457:2473 PLF.Smallstep <> multistep_congr_2 prfax
+def 2476:2484 <> Unnamed_thm
+R2481:2484 Corelib.Init.Logic <> True ind
+R2647:2661 PLF.Smallstep <> eval__multistep prfax
+R2678:2679 PLF.Smallstep <> tm ind
+binder 2674:2674 <> t:9
+R2687:2689 Corelib.Init.Datatypes <> nat ind
+binder 2683:2683 <> n:10
+R2697:2700 PLF.Smallstep <> eval ind
+R2702:2702 PLF.SmallstepTest <> t:9 var
+R2704:2704 PLF.SmallstepTest <> n:10 var
+R2709:2713 PLF.Smallstep <> multi ind
+R2715:2716 PLF.Smallstep <> tm ind
+R2718:2721 PLF.Smallstep <> step ind
+R2723:2723 PLF.SmallstepTest <> t:9 var
+R2726:2726 PLF.Smallstep <> C constr
+R2728:2728 PLF.SmallstepTest <> n:10 var
+R2647:2661 PLF.Smallstep <> eval__multistep prfax
+R2678:2679 PLF.Smallstep <> tm ind
+binder 2674:2674 <> t:11
+R2687:2689 Corelib.Init.Datatypes <> nat ind
+binder 2683:2683 <> n:12
+R2697:2700 PLF.Smallstep <> eval ind
+R2702:2702 PLF.SmallstepTest <> t:11 var
+R2704:2704 PLF.SmallstepTest <> n:12 var
+R2709:2713 PLF.Smallstep <> multi ind
+R2715:2716 PLF.Smallstep <> tm ind
+R2718:2721 PLF.Smallstep <> step ind
+R2723:2723 PLF.SmallstepTest <> t:11 var
+R2726:2726 PLF.Smallstep <> C constr
+R2728:2728 PLF.SmallstepTest <> n:12 var
+R2781:2795 PLF.Smallstep <> eval__multistep prfax
+def 2798:2806 <> Unnamed_thm
+R2803:2806 Corelib.Init.Logic <> True ind
+R2959:2968 PLF.Smallstep <> step__eval prfax
+R2988:2989 PLF.Smallstep <> tm ind
+binder 2981:2981 <> t:13
+binder 2983:2984 <> t':14
+R2997:2999 Corelib.Init.Datatypes <> nat ind
+binder 2993:2993 <> n:15
+R3007:3010 PLF.Smallstep <> step ind
+R3012:3012 PLF.SmallstepTest <> t:13 var
+R3014:3015 PLF.SmallstepTest <> t':14 var
+R3023:3026 PLF.Smallstep <> eval ind
+R3028:3029 PLF.SmallstepTest <> t':14 var
+R3031:3031 PLF.SmallstepTest <> n:15 var
+R3035:3038 PLF.Smallstep <> eval ind
+R3040:3040 PLF.SmallstepTest <> t:13 var
+R3042:3042 PLF.SmallstepTest <> n:15 var
+R2959:2968 PLF.Smallstep <> step__eval prfax
+R2988:2989 PLF.Smallstep <> tm ind
+binder 2981:2981 <> t:16
+binder 2983:2984 <> t':17
+R2997:2999 Corelib.Init.Datatypes <> nat ind
+binder 2993:2993 <> n:18
+R3007:3010 PLF.Smallstep <> step ind
+R3012:3012 PLF.SmallstepTest <> t:16 var
+R3014:3015 PLF.SmallstepTest <> t':17 var
+R3023:3026 PLF.Smallstep <> eval ind
+R3028:3029 PLF.SmallstepTest <> t':17 var
+R3031:3031 PLF.SmallstepTest <> n:18 var
+R3035:3038 PLF.Smallstep <> eval ind
+R3040:3040 PLF.SmallstepTest <> t:16 var
+R3042:3042 PLF.SmallstepTest <> n:18 var
+R3094:3103 PLF.Smallstep <> step__eval prfax
+def 3106:3114 <> Unnamed_thm
+R3111:3114 Corelib.Init.Logic <> True ind
+R3277:3291 PLF.Smallstep <> multistep__eval prfax
+R3311:3312 PLF.Smallstep <> tm ind
+binder 3304:3304 <> t:19
+binder 3306:3307 <> t':20
+R3321:3334 PLF.Smallstep <> normal_form_of def
+R3336:3337 PLF.Smallstep <> tm ind
+R3339:3342 PLF.Smallstep <> step ind
+R3344:3344 PLF.SmallstepTest <> t:19 var
+R3346:3347 PLF.SmallstepTest <> t':20 var
+R3353:3354 Corelib.Init.Logic <> ex ind
+R3356:3358 Corelib.Init.Datatypes <> nat ind
+R3369:3371 Corelib.Init.Datatypes <> nat ind
+binder 3365:3365 <> n:21
+R3376:3378 Corelib.Init.Logic <> and ind
+R3399:3402 PLF.Smallstep <> eval ind
+R3404:3404 PLF.SmallstepTest <> t:19 var
+R3406:3406 PLF.SmallstepTest <> n:21 var
+R3382:3383 Corelib.Init.Logic <> eq ind
+R3385:3386 PLF.Smallstep <> tm ind
+R3388:3389 PLF.SmallstepTest <> t':20 var
+R3392:3392 PLF.Smallstep <> C constr
+R3394:3394 PLF.SmallstepTest <> n:21 var
+R3277:3291 PLF.Smallstep <> multistep__eval prfax
+R3311:3312 PLF.Smallstep <> tm ind
+binder 3304:3304 <> t:22
+binder 3306:3307 <> t':23
+R3321:3334 PLF.Smallstep <> normal_form_of def
+R3336:3337 PLF.Smallstep <> tm ind
+R3339:3342 PLF.Smallstep <> step ind
+R3344:3344 PLF.SmallstepTest <> t:22 var
+R3346:3347 PLF.SmallstepTest <> t':23 var
+R3353:3354 Corelib.Init.Logic <> ex ind
+R3356:3358 Corelib.Init.Datatypes <> nat ind
+R3369:3371 Corelib.Init.Datatypes <> nat ind
+binder 3365:3365 <> n:24
+R3376:3378 Corelib.Init.Logic <> and ind
+R3399:3402 PLF.Smallstep <> eval ind
+R3404:3404 PLF.SmallstepTest <> t:22 var
+R3406:3406 PLF.SmallstepTest <> n:24 var
+R3382:3383 Corelib.Init.Logic <> eq ind
+R3385:3386 PLF.Smallstep <> tm ind
+R3388:3389 PLF.SmallstepTest <> t':23 var
+R3392:3392 PLF.Smallstep <> C constr
+R3394:3394 PLF.SmallstepTest <> n:24 var
+R3460:3474 PLF.Smallstep <> multistep__eval prfax
+def 3477:3485 <> Unnamed_thm
+R3482:3485 Corelib.Init.Logic <> True ind
+R3681:3716 PLF.Smallstep Combined combined_step_deterministic prfax
+R3721:3722 Corelib.Init.Logic <> or ind
+R3771:3773 Corelib.Init.Logic <> not def
+R3777:3789 PLF.Smallstep <> deterministic def
+R3791:3801 PLF.Smallstep Combined tm ind
+R3803:3815 PLF.Smallstep Combined step ind
+R3726:3738 PLF.Smallstep <> deterministic def
+R3740:3750 PLF.Smallstep Combined tm ind
+R3752:3764 PLF.Smallstep Combined step ind
+R3681:3716 PLF.Smallstep Combined combined_step_deterministic prfax
+R3721:3722 Corelib.Init.Logic <> or ind
+R3771:3773 Corelib.Init.Logic <> not def
+R3777:3789 PLF.Smallstep <> deterministic def
+R3791:3801 PLF.Smallstep Combined tm ind
+R3803:3815 PLF.Smallstep Combined step ind
+R3726:3738 PLF.Smallstep <> deterministic def
+R3740:3750 PLF.Smallstep Combined tm ind
+R3752:3764 PLF.Smallstep Combined step ind
+R3869:3904 PLF.Smallstep Combined combined_step_deterministic prfax
+def 3907:3915 <> Unnamed_thm
+R3912:3915 Corelib.Init.Logic <> True ind
+R4105:4137 PLF.Smallstep Combined combined_strong_progress prfax
+R4142:4143 Corelib.Init.Logic <> or ind
+R4273:4275 Corelib.Init.Logic <> not def
+R4295:4305 PLF.Smallstep Combined tm ind
+binder 4291:4291 <> t:25
+R4315:4316 Corelib.Init.Logic <> or ind
+R4348:4349 Corelib.Init.Logic <> ex ind
+R4351:4361 PLF.Smallstep Combined tm ind
+R4373:4383 PLF.Smallstep Combined tm ind
+binder 4368:4369 <> t':26
+R4388:4400 PLF.Smallstep Combined step ind
+R4402:4402 PLF.SmallstepTest <> t:25 var
+R4404:4405 PLF.SmallstepTest <> t':26 var
+R4319:4332 PLF.Smallstep Combined value ind
+R4334:4334 PLF.SmallstepTest <> t:25 var
+R4160:4170 PLF.Smallstep Combined tm ind
+binder 4156:4156 <> t:27
+R4177:4178 Corelib.Init.Logic <> or ind
+R4207:4208 Corelib.Init.Logic <> ex ind
+R4210:4220 PLF.Smallstep Combined tm ind
+R4232:4242 PLF.Smallstep Combined tm ind
+binder 4227:4228 <> t':28
+R4247:4259 PLF.Smallstep Combined step ind
+R4261:4261 PLF.SmallstepTest <> t:27 var
+R4263:4264 PLF.SmallstepTest <> t':28 var
+R4181:4194 PLF.Smallstep Combined value ind
+R4196:4196 PLF.SmallstepTest <> t:27 var
+R4105:4137 PLF.Smallstep Combined combined_strong_progress prfax
+R4142:4143 Corelib.Init.Logic <> or ind
+R4273:4275 Corelib.Init.Logic <> not def
+R4295:4305 PLF.Smallstep Combined tm ind
+binder 4291:4291 <> t:29
+R4315:4316 Corelib.Init.Logic <> or ind
+R4348:4349 Corelib.Init.Logic <> ex ind
+R4351:4361 PLF.Smallstep Combined tm ind
+R4373:4383 PLF.Smallstep Combined tm ind
+binder 4368:4369 <> t':30
+R4388:4400 PLF.Smallstep Combined step ind
+R4402:4402 PLF.SmallstepTest <> t:29 var
+R4404:4405 PLF.SmallstepTest <> t':30 var
+R4319:4332 PLF.Smallstep Combined value ind
+R4334:4334 PLF.SmallstepTest <> t:29 var
+R4160:4170 PLF.Smallstep Combined tm ind
+binder 4156:4156 <> t:31
+R4177:4178 Corelib.Init.Logic <> or ind
+R4207:4208 Corelib.Init.Logic <> ex ind
+R4210:4220 PLF.Smallstep Combined tm ind
+R4232:4242 PLF.Smallstep Combined tm ind
+binder 4227:4228 <> t':32
+R4247:4259 PLF.Smallstep Combined step ind
+R4261:4261 PLF.SmallstepTest <> t:31 var
+R4263:4264 PLF.SmallstepTest <> t':32 var
+R4181:4194 PLF.Smallstep Combined value ind
+R4196:4196 PLF.SmallstepTest <> t:31 var
+R4461:4493 PLF.Smallstep Combined combined_strong_progress prfax
+def 4496:4504 <> Unnamed_thm
+R4501:4504 Corelib.Init.Logic <> True ind
+R4693:4711 PLF.Smallstep <> compiler_is_correct prfax
+R4693:4711 PLF.Smallstep <> compiler_is_correct prfax
+R4714:4742 PLF.Smallstep <> compiler_is_correct_statement prfax
+R4793:4811 PLF.Smallstep <> compiler_is_correct prfax
+def 4814:4822 <> Unnamed_thm
+R4819:4822 Corelib.Init.Logic <> True ind
+R4979:4990 PLF.Smallstep <> normalize_ex prfax
+R4996:4997 Corelib.Init.Logic <> ex ind
+R4999:5000 PLF.Smallstep <> tm ind
+R5015:5016 PLF.Smallstep <> tm ind
+binder 5010:5011 <> e':33
+R5025:5027 Corelib.Init.Logic <> and ind
+R5076:5080 PLF.Smallstep <> value ind
+R5082:5083 PLF.SmallstepTest <> e':33 var
+R5031:5035 PLF.Smallstep <> multi ind
+R5037:5038 PLF.Smallstep <> tm ind
+R5040:5043 PLF.Smallstep <> step ind
+R5046:5046 PLF.Smallstep <> P constr
+R5049:5049 PLF.Smallstep <> C constr
+R5055:5055 PLF.Smallstep <> P constr
+R5058:5058 PLF.Smallstep <> C constr
+R5064:5064 PLF.Smallstep <> C constr
+R5071:5072 PLF.SmallstepTest <> e':33 var
+R4979:4990 PLF.Smallstep <> normalize_ex prfax
+R4996:4997 Corelib.Init.Logic <> ex ind
+R4999:5000 PLF.Smallstep <> tm ind
+R5015:5016 PLF.Smallstep <> tm ind
+binder 5010:5011 <> e':34
+R5025:5027 Corelib.Init.Logic <> and ind
+R5076:5080 PLF.Smallstep <> value ind
+R5082:5083 PLF.SmallstepTest <> e':34 var
+R5031:5035 PLF.Smallstep <> multi ind
+R5037:5038 PLF.Smallstep <> tm ind
+R5040:5043 PLF.Smallstep <> step ind
+R5046:5046 PLF.Smallstep <> P constr
+R5049:5049 PLF.Smallstep <> C constr
+R5055:5055 PLF.Smallstep <> P constr
+R5058:5058 PLF.Smallstep <> C constr
+R5064:5064 PLF.Smallstep <> C constr
+R5071:5072 PLF.SmallstepTest <> e':34 var
+R5137:5148 PLF.Smallstep <> normalize_ex prfax
+def 5151:5159 <> Unnamed_thm
+R5156:5159 Corelib.Init.Logic <> True ind
+R6125:6148 PLF.Smallstep SimpleArith1 test_step_2 prfax
+R6218:6235 PLF.Smallstep <> step_deterministic prfax
+R6320:6352 PLF.Smallstep Temp4.Temp5 bool_step_prop4_holds prfax
+R6420:6435 PLF.Smallstep <> test_multistep_4 prfax
+R6504:6520 PLF.Smallstep <> multistep_congr_2 prfax
+R6587:6601 PLF.Smallstep <> eval__multistep prfax
+R6663:6672 PLF.Smallstep <> step__eval prfax
+R6739:6753 PLF.Smallstep <> multistep__eval prfax
+R6841:6876 PLF.Smallstep Combined combined_step_deterministic prfax
+R6961:6993 PLF.Smallstep Combined combined_strong_progress prfax
+R7057:7068 PLF.Smallstep <> normalize_ex prfax
+R7189:7207 PLF.Smallstep <> compiler_is_correct prfax
